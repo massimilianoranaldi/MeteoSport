@@ -9,7 +9,12 @@
     <property id="SinistraRiga3" type="number">2</property>  
 
     <!-- INFO UTENTE DESTRA valori default-->
-    <property id="DestraRiga1" type="number">2</property>  
-    <property id="DestraRiga2" type="number">1</property>     
-    <property id="DestraRiga3" type="number">0</property>     
+    <property id="DestraRiga1" type="number">2</property>  <!--gradini-->
+    <property id="DestraRiga2" type="number">1</property>  <!--passi-->   
+    <property id="DestraRiga3" type="number">0</property>  <!--calorie-->   
+
+    <!-- GOAL INFO UTENTE DESTRA valori default -->
+<property id="GoalPassi"   type="number">10000</property>
+<property id="GoalCalorie" type="number">500</property>
+<property id="GoalGradini" type="number">10</property>
 </properties>

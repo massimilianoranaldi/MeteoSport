@@ -113,6 +113,9 @@ class MeteoSportView extends WatchUi.WatchFace {
     var _slotDx2            as Number or Null = null;  // slot scelto per colonna di destra , riga 2
     var _slotDx3            as Number or Null = null;  // slot scelto per colonna di destra , riga 3
 
+    var _goalPassi   as Number = 10000;
+    var _goalCalorie as Number = 500;
+    var _goalGradini as Number = 10;
 
     // ============================================================
     //  INIZIALIZZAZIONE
@@ -334,33 +337,15 @@ class MeteoSportView extends WatchUi.WatchFace {
             Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_RIGHT);
 
         // Riga 2 — icona probabilità pioggia + valore %
-        //--------------------------------------------------------------------------------------------------------
-        /*if (_iconPercPioggia != null) {
-            dc.drawBitmap(leftX, leftY + rowGap, _iconPercPioggia);
-        }
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(leftX - leftOff,
-            leftY + rowGap + _iconPercPioggia.getHeight() / 2,
-            Graphics.FONT_SYSTEM_XTINY, _precipProbValue,
-            Graphics.TEXT_JUSTIFY_VCENTER | Graphics.TEXT_JUSTIFY_RIGHT);
-        */
-        //System.println("VALORE SCELTA " + _slotSx2);
-        drawLeftColumn(dc,leftX,leftY + rowGap,leftOff,_slotSx2);
-        //--------------------------------------------------------------------------------------------------------
         
-
+     
+        drawLeftColumn(dc,leftX,leftY + rowGap,leftOff,_slotSx2);
+        
         // Riga 3 — icona umidità + valore %
-        /*if (_iconUmidita != null) {
-            dc.drawBitmap(leftX, leftY + 2 * rowGap, _iconUmidita);
-        }
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(leftX - leftOff,
-            leftY + 2 * rowGap + _iconUmidita.getHeight() / 2,
-            Graphics.FONT_XTINY, _humidityValue,
-            Graphics.TEXT_JUSTIFY_VCENTER | Graphics.TEXT_JUSTIFY_RIGHT);
-
-        System.println("VALORE SCELTA " + _slotSx2);*/
+ 
         drawLeftColumn(dc,leftX,leftY + 2 * rowGap,leftOff,_slotSx3);
+
+
         // ── FASCIA DESTRA — ATTIVITÀ ─────────────────────────────
         // Tre righe verticali a destra del rettangolo centrale.
         // Ogni riga ha: icona a x=rightX, testo a destra dell'icona,
@@ -368,7 +353,7 @@ class MeteoSportView extends WatchUi.WatchFace {
         // Riga 1: y=rightY (=63), Riga 2: y=rightY+rowGap (=103), Riga 3: y=rightY+2*rowGap (=143)
 
         // Riga 1 — gradini (piani saliti), obiettivo=10
-        if (_iconGradini != null) {
+        /*if (_iconGradini != null) {
             dc.drawBitmap(rightX, rightY, _iconGradini);
         }
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -379,10 +364,20 @@ class MeteoSportView extends WatchUi.WatchFace {
         drawSegmentoProgressTrattini(dc, rightX, rightY + 28, barLen, 3,
             getFloors()["climbed"], 10,
             { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE,
-              "segmenti" => 10, "gap" => 1 }, false);
+              "segmenti" => 10, "gap" => 1 }, false);*/
+        //icona ==> rightX,rightY
+        //testo ==> rightX + _iconGradini.getWidth() + rightOff,rightY + 8
+        //segment ==> rightX, rightY + 28
+        // lunghezza barra ==> barLen fisso 
+        // spessore ==> 3 fisso
+        // goal ==> valore preso dalle properties
+        // numero dei segmenti ==> 10 se goal è >10 allora 10
+        // distanza dai segmenti ==> 1 px fisso
+        
+        drawRigthColumn(dc,rightX,rightY,rightOff,_slotDx1,barLen);
 
         // Riga 2 — passi, obiettivo=10000
-        if (_iconFoot != null) {
+  /*      if (_iconFoot != null) {
             dc.drawBitmap(rightX, rightY + rowGap, _iconFoot);
         }
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -393,9 +388,11 @@ class MeteoSportView extends WatchUi.WatchFace {
         drawSegmentoProgress(dc, rightX, rightY + rowGap + 28, barLen + 10, 3,
             getSteps(), 10000,
             { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE }, false);
+*/
+        drawRigthColumn(dc,rightX,rightY + rowGap,rightOff,_slotDx2,barLen+10); //allungo il segmento di 10 perchè al centro             
 
         // Riga 3 — calorie, obiettivo=2000
-        if (_iconCalorie != null) {
+        /*if (_iconCalorie != null) {
             dc.drawBitmap(rightX, rightY + 2 * rowGap, _iconCalorie);
         }
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -406,8 +403,9 @@ class MeteoSportView extends WatchUi.WatchFace {
         drawSegmentoProgress(dc, rightX, rightY + 2 * rowGap + 28, barLen, 3,
             getCalories(), 2000,
             { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE }, false);
-
-
+*/
+        drawRigthColumn(dc,rightX,rightY + 2 * rowGap,rightOff,_slotDx3,barLen);
+        
         // ── FASCIA BASSA — ARCO ALBA/TRAMONTO (sinistra) ─────────
         // Arco a punti centrato in (arcX=55, arcY=205).
         // Mostra il progresso della fase giorno/notte corrente.
@@ -931,6 +929,54 @@ class MeteoSportView extends WatchUi.WatchFace {
 
 
     }
+
+
+    function drawRigthColumn(dc       as Dc,
+                                positionIconX    as Number,
+                                positionIconY    as Number,
+                                rightOff as Number,
+                                slotType as Number,
+                                barLen as Number) as Void {
+
+            var contenuto = getSlotContentDestra(slotType); 
+            // viene ritornato contenuto={ "icon" => _iconPercPioggia,    "text" => _precipProbValue }
+            var icon = contenuto["icon"] as BitmapResource?;
+            var text = contenuto["text"] as Number?;
+            var goal = contenuto["goal"] as Number?;
+
+            System.println(getTimestamp() + "MeteoSport.drawRightColumn" + text + "scelta:"+slotType);
+
+            if (icon == null || text == null) { return; }
+
+            // disegna icona
+            dc.drawBitmap(positionIconX, positionIconY, icon);
+
+            // disegna testo a sinistra dell'icona, centrato verticalmente
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(positionIconX+icon.getWidth()+rightOff, positionIconY + 8,
+                Graphics.FONT_XTINY, text,
+                 Graphics.TEXT_JUSTIFY_LEFT);
+
+//-------
+
+            if( goal <= 10) {
+            drawSegmentoProgressTrattini(dc, positionIconX, positionIconY + 28, barLen, 3,
+            text, goal,
+            { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE,
+              "segmenti" => goal, "gap" => 1 }, false);
+              }
+        else {
+            drawSegmentoProgress(dc, positionIconX, positionIconY + 28, barLen, 3,
+            text, goal,
+            { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE }, false);
+        }
+        
+
+
+
+
+
+    }    
     // ============================================================
     //  DATI ATTIVITÀ UTENTE
     // ============================================================
@@ -1098,6 +1144,10 @@ class MeteoSportView extends WatchUi.WatchFace {
         _slotDx1 = Application.Properties.getValue("DestraRiga1")   as Number;
         _slotDx2 = Application.Properties.getValue("DestraRiga2")   as Number;
         _slotDx3 = Application.Properties.getValue("DestraRiga3")   as Number;
+
+        _goalPassi   = Application.Properties.getValue("GoalPassi")   as Number;
+        _goalCalorie = Application.Properties.getValue("GoalCalorie") as Number;
+        _goalGradini = Application.Properties.getValue("GoalGradini") as Number;        
     }
 
 
@@ -1112,6 +1162,16 @@ class MeteoSportView extends WatchUi.WatchFace {
             case 4: return { "icon" => _iconCoperturaCielo, "text" => _copValue        };
             case 5: return { "icon" => _iconUvIndex,        "text" => _uvValue         };
             default: return { "icon" => null,               "text" => null             };
+        }
+    }
+
+    // dato il numero scelto dall'utente restituisce icona e testo
+    function getSlotContentDestra(tipo as Number) as Dictionary {
+        switch (tipo) {
+            case 0: return { "icon" => _iconCalorie, "text" => getCalories(),          "goal" => _goalCalorie };
+            case 1: return { "icon" => _iconFoot, "text" => getSteps(),             "goal" => _goalPassi   };
+            case 2: return { "icon" => _iconGradini,    "text" => getFloors()["climbed"], "goal" => _goalGradini };
+            default: return { "icon" => null,        "text" => null,                   "goal" => null         };
         }
     }
 

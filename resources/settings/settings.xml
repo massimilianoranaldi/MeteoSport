@@ -50,6 +50,9 @@
         </settingConfig>
     </setting>
 
+
+    
+
     <setting propertyKey="@Properties.DestraRiga2" title="@Strings.DestraRiga2Title">
         <settingConfig type="list">
             <listEntry value="0">@Strings.SlotCalorie</listEntry>
@@ -66,5 +69,15 @@
         </settingConfig>
     </setting>
 
+<setting propertyKey="@Properties.GoalPassi" title="@Strings.GoalPassiTitle">
+    <settingConfig type="numeric" min="0" max="20000" />
+</setting>
+<setting propertyKey="@Properties.GoalCalorie" title="@Strings.GoalCalorieTitle">
+    <settingConfig type="numeric" min="0" max="3000" />
+</setting>
+
+<setting propertyKey="@Properties.GoalGradini" title="@Strings.GoalGradiniTitle">
+    <settingConfig type="numeric" min="0" max="100" />
+</setting>
 
 </settings>

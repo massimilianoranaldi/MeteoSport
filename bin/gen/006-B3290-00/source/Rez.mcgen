@@ -66,15 +66,18 @@ module Rez {
         (:initialized) var ColorLightGray as ResourceId;
         (:initialized) var SinistraRiga2Title as ResourceId;
         (:initialized) var SlotProbPioggia as ResourceId;
+        (:initialized) var GoalPassiTitle as ResourceId;
         (:initialized) var BackgroundColorTitle as ResourceId;
         (:initialized) var ColorDarkGray as ResourceId;
         (:initialized) var MilitaryFormatTitle as ResourceId;
         (:initialized) var DestraRiga1Title as ResourceId;
         (:initialized) var SlotGradini as ResourceId;
         (:initialized) var ColorBlack as ResourceId;
+        (:initialized) var GoalCalorieTitle as ResourceId;
         (:initialized) var DestraRiga2Title as ResourceId;
         (:initialized) var SlotCalorie as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var GoalGradiniTitle as ResourceId;
         (:initialized) var SlotPioggia as ResourceId;
         (:initialized) var SlotPassi as ResourceId;
         (:initialized) var SlotUV as ResourceId;
