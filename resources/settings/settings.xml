@@ -1,0 +1,70 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+
+
+    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
+
+    <!-- METEO SINISTRA -->
+    <setting propertyKey="@Properties.SinistraRiga2" title="@Strings.SinistraRiga2Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
+            <listEntry value="1">@Strings.SlotPioggia</listEntry>
+            <listEntry value="2">@Strings.SlotUmidita</listEntry>
+            <listEntry value="3">@Strings.SlotVento</listEntry>
+            <listEntry value="4">@Strings.SlotCopertura</listEntry>
+            <listEntry value="5">@Strings.SlotUV</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.SinistraRiga3" title="@Strings.SinistraRiga3Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
+            <listEntry value="1">@Strings.SlotPioggia</listEntry>
+            <listEntry value="2">@Strings.SlotUmidita</listEntry>
+            <listEntry value="3">@Strings.SlotVento</listEntry>
+            <listEntry value="4">@Strings.SlotCopertura</listEntry>
+            <listEntry value="5">@Strings.SlotUV</listEntry>
+        </settingConfig>
+    </setting>
+
+
+
+    <!-- INFO UTENTE DESTRA -->
+    <setting propertyKey="@Properties.DestraRiga1" title="@Strings.DestraRiga1Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotCalorie</listEntry>
+            <listEntry value="1">@Strings.SlotPassi</listEntry>
+            <listEntry value="2">@Strings.SlotGradini</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.DestraRiga2" title="@Strings.DestraRiga2Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotCalorie</listEntry>
+            <listEntry value="1">@Strings.SlotPassi</listEntry>
+            <listEntry value="2">@Strings.SlotGradini</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.DestraRiga3" title="@Strings.DestraRiga3Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SlotCalorie</listEntry>
+            <listEntry value="1">@Strings.SlotPassi</listEntry>
+            <listEntry value="2">@Strings.SlotGradini</listEntry>
+        </settingConfig>
+    </setting>
+
+
+</settings>

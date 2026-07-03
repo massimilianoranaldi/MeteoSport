@@ -1,0 +1,1671 @@
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [wiNa,9,27,31]; @symbol_type<0> = [ResourceId,9,35,45]; ]
+        var wiNa as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [wiRain,10,27,33]; @symbol_type<0> = [ResourceId,10,37,47]; ]
+        var wiRain as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; @symbol_vardef = [wiCloudy,11,27,35]; @symbol_type<0> = [ResourceId,11,39,49]; ]
+        var wiCloudy as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; @symbol_vardef = [wiDayCloudy,12,27,38]; @symbol_type<0> = [ResourceId,12,42,52]; ]
+        var wiDayCloudy as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [wiDayRain,13,27,36]; @symbol_type<0> = [ResourceId,13,40,50]; ]
+        var wiDayRain as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [wiDayShowers,14,27,39]; @symbol_type<0> = [ResourceId,14,43,53]; ]
+        var wiDayShowers as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [wiDaySnow,15,27,36]; @symbol_type<0> = [ResourceId,15,40,50]; ]
+        var wiDaySnow as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [wiDaySprinkle,16,27,40]; @symbol_type<0> = [ResourceId,16,44,54]; ]
+        var wiDaySprinkle as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [wiDaySunny,17,27,37]; @symbol_type<0> = [ResourceId,17,41,51]; ]
+        var wiDaySunny as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [wiDaySunnyOvercast,18,27,45]; @symbol_type<0> = [ResourceId,18,49,59]; ]
+        var wiDaySunnyOvercast as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [wiRainMix,19,27,36]; @symbol_type<0> = [ResourceId,19,40,50]; ]
+        var wiRainMix as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [wiRainWind,20,27,37]; @symbol_type<0> = [ResourceId,20,41,51]; ]
+        var wiRainWind as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [wiShowers,21,27,36]; @symbol_type<0> = [ResourceId,21,40,50]; ]
+        var wiShowers as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [wiSnow,22,27,33]; @symbol_type<0> = [ResourceId,22,37,47]; ]
+        var wiSnow as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [wiSnowWind,23,27,37]; @symbol_type<0> = [ResourceId,23,41,51]; ]
+        var wiSnowWind as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [wiSprinkle,24,27,37]; @symbol_type<0> = [ResourceId,24,41,51]; ]
+        var wiSprinkle as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [wiStormShowers,25,27,41]; @symbol_type<0> = [ResourceId,25,45,55]; ]
+        var wiStormShowers as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [wiThunderstorm,26,27,41]; @symbol_type<0> = [ResourceId,26,45,55]; ]
+        var wiThunderstorm as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [wiDayFog,27,27,35]; @symbol_type<0> = [ResourceId,27,39,49]; ]
+        var wiDayFog as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [wiDayHaze,28,27,36]; @symbol_type<0> = [ResourceId,28,40,50]; ]
+        var wiDayHaze as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [Alba,29,27,31]; @symbol_type<0> = [ResourceId,29,35,45]; ]
+        var Alba as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [Tramonto,30,27,35]; @symbol_type<0> = [ResourceId,30,39,49]; ]
+        var Tramonto as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [Vento,31,27,32]; @symbol_type<0> = [ResourceId,31,36,46]; ]
+        var Vento as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [CoperturaCielo,32,27,41]; @symbol_type<0> = [ResourceId,32,45,55]; ]
+        var CoperturaCielo as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [Umidita,33,27,34]; @symbol_type<0> = [ResourceId,33,38,48]; ]
+        var Umidita as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [PercPioggia,34,27,38]; @symbol_type<0> = [ResourceId,34,42,52]; ]
+        var PercPioggia as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [UvIndex,35,27,34]; @symbol_type<0> = [ResourceId,35,38,48]; ]
+        var UvIndex as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [Pioggia,36,27,34]; @symbol_type<0> = [ResourceId,36,38,48]; ]
+        var Pioggia as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [blueOn,37,27,33]; @symbol_type<0> = [ResourceId,37,37,47]; ]
+        var blueOn as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [blueOff,38,27,34]; @symbol_type<0> = [ResourceId,38,38,48]; ]
+        var blueOff as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [Gradini,39,27,34]; @symbol_type<0> = [ResourceId,39,38,48]; ]
+        var Gradini as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [Foot,40,27,31]; @symbol_type<0> = [ResourceId,40,35,45]; ]
+        var Foot as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [Calorie,41,27,34]; @symbol_type<0> = [ResourceId,41,38,48]; ]
+        var Calorie as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [MinAttivita,42,27,38]; @symbol_type<0> = [ResourceId,42,42,52]; ]
+        var MinAttivita as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 43; @position = 27; initialized = true; @symbol_vardef = [Pep,43,27,30]; @symbol_type<0> = [ResourceId,43,34,44]; ]
+        var Pep as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,44,27,39]; @symbol_type<0> = [ResourceId,44,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 47; @symbol_moduledef = [Fonts,47,11,16]; ]
+    module Fonts {
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 47; ]
+        <init> {
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [FontOra,48,27,34]; @symbol_type<0> = [ResourceId,48,38,48]; ]
+        var FontOra as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [FontOra2,49,27,35]; @symbol_type<0> = [ResourceId,49,39,49]; ]
+        var FontOra2 as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [FontOra3,50,27,35]; @symbol_type<0> = [ResourceId,50,39,49]; ]
+        var FontOra3 as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [FontOra4,51,27,35]; @symbol_type<0> = [ResourceId,51,39,49]; ]
+        var FontOra4 as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [FontOra5,52,27,35]; @symbol_type<0> = [ResourceId,52,39,49]; ]
+        var FontOra5 as ResourceId;
+    }
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 55; @symbol_moduledef = [Layouts,55,11,18]; ]
+    module Layouts {
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 55; ]
+        <init> {
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 56; @symbol_functiondef = [WatchFace,56,17,26]; @symbol_param<0> = [dc,56,27,29]; @symbol_param<0>_type<0> = [Graphics,56,33,41]; @symbol_param<0>_type<1> = [Dc,56,42,44]; @symbol_return<0> = [Array,56,49,54]; @symbol_return<1> = [WatchUi,56,55,62]; @symbol_return<2> = [Drawable,56,63,71]; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_start:
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 57 12 ]
+            [ "c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_start" "c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_stop" ]
+            %rez_cmp_local_custom_drawable_11939594661139614796.1 = local;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 57 16 66 ];
+            symbol [ Background %tmp.4 57 73 83 ];
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11939594661139614796.1 %tmp.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %rez_cmp_local_custom_drawable_11939594661139614796.1 57 16 66 ];
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 59 12 ]
+            [ "c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_start" "c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_stop" ]
+            %rez_cmp_local_text_TimeLabel.2 = local;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 59 16 44 ];
+            symbol [ WatchUi %tmp.7 59 51 58 ];
+            %tmp.7 = getm $.Toybox.WatchUi;
+            symbol [ Text %tmp.8 59 59 63 ];
+            %tmp.8 = getv function ? %tmp.7 :Text;
+            %tmp.9 = newd 6;
+            %tmp.11 = const :identifier;
+            symbol [ identifier %tmp.11 59 66 76 const ];
+            %tmp.12 = "TimeLabel";
+            %tmp.13 = dup %tmp.9;
+            %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+            %tmp.16 = const :color;
+            symbol [ color %tmp.16 59 92 97 const ];
+            symbol [ Graphics %tmp.17 59 99 107 ];
+            %tmp.17 = getm $.Toybox.Graphics;
+            symbol [ COLOR_BLUE %tmp.18 59 108 118 ];
+            %tmp.18 = getv %tmp.17 :COLOR_BLUE;
+            %tmp.19 = dup %tmp.14;
+            %tmp.20 = aputv %tmp.19 %tmp.16 %tmp.18;
+            %tmp.22 = const :locX;
+            symbol [ locX %tmp.22 59 121 125 const ];
+            %tmp.23 = lgetv %dc;
+            symbol [ dc %tmp.23 59 128 130 ];
+            symbol [ getWidth %tmp.24 59 131 139 ];
+            %tmp.24 = getv function %tmp.23 :getWidth;
+            %tmp.25 = invoke %tmp.23 %tmp.24();
+            %tmp.26 = 0.5;
+            %tmp.27 = mul %tmp.25 %tmp.26;
+            %tmp.28 = dup %tmp.20;
+            %tmp.29 = aputv %tmp.28 %tmp.22 %tmp.27;
+            %tmp.31 = const :locY;
+            symbol [ locY %tmp.31 59 151 155 const ];
+            %tmp.32 = lgetv %dc;
+            symbol [ dc %tmp.32 59 159 161 ];
+            symbol [ getHeight %tmp.33 59 162 171 ];
+            %tmp.33 = getv function %tmp.32 :getHeight;
+            %tmp.34 = invoke %tmp.32 %tmp.33();
+            %tmp.35 = lgetv %dc;
+            symbol [ dc %tmp.35 59 176 178 ];
+            symbol [ getFontHeight %tmp.36 59 179 192 ];
+            %tmp.36 = getv function %tmp.35 :getFontHeight;
+            symbol [ Graphics %tmp.37 59 193 201 ];
+            %tmp.37 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.38 59 202 212 ];
+            %tmp.38 = getv %tmp.37 :FONT_LARGE;
+            %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+            %tmp.40 = sub %tmp.34 %tmp.39;
+            %tmp.41 = 0.5;
+            %tmp.42 = mul %tmp.40 %tmp.41;
+            %tmp.43 = dup %tmp.29;
+            %tmp.44 = aputv %tmp.43 %tmp.31 %tmp.42;
+            %tmp.46 = const :justification;
+            symbol [ justification %tmp.46 59 224 237 const ];
+            symbol [ Graphics %tmp.47 59 239 247 ];
+            %tmp.47 = getm $.Toybox.Graphics;
+            symbol [ TEXT_JUSTIFY_CENTER %tmp.48 59 248 267 ];
+            %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+            %tmp.49 = dup %tmp.44;
+            %tmp.50 = aputv %tmp.49 %tmp.46 %tmp.48;
+            %tmp.52 = const :font;
+            symbol [ font %tmp.52 59 270 274 const ];
+            symbol [ Graphics %tmp.53 59 276 284 ];
+            %tmp.53 = getm $.Toybox.Graphics;
+            symbol [ FONT_LARGE %tmp.54 59 285 295 ];
+            %tmp.54 = getv %tmp.53 :FONT_LARGE;
+            %tmp.55 = dup %tmp.50;
+            %tmp.56 = aputv %tmp.55 %tmp.52 %tmp.54;
+            %tmp.5 = newc %tmp.8 (%tmp.56);
+            lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
+            symbol [ rez_cmp_local_text_TimeLabel %rez_cmp_local_text_TimeLabel.2 59 16 44 ];
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 61 12 ]
+            %tmp.57 = newa 2 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.57 61 105 110 ];
+            symbol [ WatchUi %tmp.57 61 111 118 ];
+            symbol [ Drawable %tmp.57 61 119 127 ];
+            %tmp.58 = lgetv %rez_cmp_local_custom_drawable_11939594661139614796.1;
+            symbol [ rez_cmp_local_custom_drawable_11939594661139614796 %tmp.58 61 20 70 ];
+            %tmp.59 = dup %tmp.57;
+            %tmp.60 = aputv %tmp.59 0 %tmp.58;
+            %tmp.61 = lgetv %rez_cmp_local_text_TimeLabel.2;
+            symbol [ rez_cmp_local_text_TimeLabel %tmp.61 61 72 100 ];
+            %tmp.62 = dup %tmp.60;
+            %tmp.63 = aputv %tmp.62 1 %tmp.61;
+            ret %tmp.63;
+c__GarminProject_MeteoSport_MeteoSport_bin_gen_006_B3290_00_source_Rez_mcgen_56_73_62_8_stop:
+        }
+    }
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 65; @symbol_moduledef = [Strings,65,11,18]; ]
+    module Strings {
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 65; ]
+        <init> {
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 66; @position = 27; initialized = true; @symbol_vardef = [ColorLightGray,66,27,41]; @symbol_type<0> = [ResourceId,66,45,55]; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 67; @position = 27; initialized = true; @symbol_vardef = [SinistraRiga2Title,67,27,45]; @symbol_type<0> = [ResourceId,67,49,59]; ]
+        var SinistraRiga2Title as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 68; @position = 27; initialized = true; @symbol_vardef = [SlotProbPioggia,68,27,42]; @symbol_type<0> = [ResourceId,68,46,56]; ]
+        var SlotProbPioggia as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 69; @position = 27; initialized = true; @symbol_vardef = [BackgroundColorTitle,69,27,47]; @symbol_type<0> = [ResourceId,69,51,61]; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 70; @position = 27; initialized = true; @symbol_vardef = [ColorDarkGray,70,27,40]; @symbol_type<0> = [ResourceId,70,44,54]; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 71; @position = 27; initialized = true; @symbol_vardef = [MilitaryFormatTitle,71,27,46]; @symbol_type<0> = [ResourceId,71,50,60]; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 72; @position = 27; initialized = true; @symbol_vardef = [DestraRiga1Title,72,27,43]; @symbol_type<0> = [ResourceId,72,47,57]; ]
+        var DestraRiga1Title as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 73; @position = 27; initialized = true; @symbol_vardef = [SlotGradini,73,27,38]; @symbol_type<0> = [ResourceId,73,42,52]; ]
+        var SlotGradini as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 74; @position = 27; initialized = true; @symbol_vardef = [ColorBlack,74,27,37]; @symbol_type<0> = [ResourceId,74,41,51]; ]
+        var ColorBlack as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 75; @position = 27; initialized = true; @symbol_vardef = [DestraRiga2Title,75,27,43]; @symbol_type<0> = [ResourceId,75,47,57]; ]
+        var DestraRiga2Title as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 76; @position = 27; initialized = true; @symbol_vardef = [SlotCalorie,76,27,38]; @symbol_type<0> = [ResourceId,76,42,52]; ]
+        var SlotCalorie as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 77; @position = 27; initialized = true; @symbol_vardef = [AppName,77,27,34]; @symbol_type<0> = [ResourceId,77,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 78; @position = 27; initialized = true; @symbol_vardef = [SlotPioggia,78,27,38]; @symbol_type<0> = [ResourceId,78,42,52]; ]
+        var SlotPioggia as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 79; @position = 27; initialized = true; @symbol_vardef = [SlotPassi,79,27,36]; @symbol_type<0> = [ResourceId,79,40,50]; ]
+        var SlotPassi as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 80; @position = 27; initialized = true; @symbol_vardef = [SlotUV,80,27,33]; @symbol_type<0> = [ResourceId,80,37,47]; ]
+        var SlotUV as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 81; @position = 27; initialized = true; @symbol_vardef = [SinistraRiga3Title,81,27,45]; @symbol_type<0> = [ResourceId,81,49,59]; ]
+        var SinistraRiga3Title as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 82; @position = 27; initialized = true; @symbol_vardef = [SlotCopertura,82,27,40]; @symbol_type<0> = [ResourceId,82,44,54]; ]
+        var SlotCopertura as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 83; @position = 27; initialized = true; @symbol_vardef = [SlotUmidita,83,27,38]; @symbol_type<0> = [ResourceId,83,42,52]; ]
+        var SlotUmidita as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 84; @position = 27; initialized = true; @symbol_vardef = [ColorWhite,84,27,37]; @symbol_type<0> = [ResourceId,84,41,51]; ]
+        var ColorWhite as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 85; @position = 27; initialized = true; @symbol_vardef = [SlotVento,85,27,36]; @symbol_type<0> = [ResourceId,85,40,50]; ]
+        var SlotVento as ResourceId;
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 86; @position = 27; initialized = true; @symbol_vardef = [DestraRiga3Title,86,27,43]; @symbol_type<0> = [ResourceId,86,47,57]; ]
+        var DestraRiga3Title as ResourceId;
+    }
+    [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 89; @symbol_moduledef = [Styles,89,11,17]; ]
+    module Styles {
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 89; ]
+        <init> {
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 90; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,90,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 90; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 91; @position = 18; @symbol_constdef = [exclude,91,18,25]; @symbol_type<0> = [Boolean,91,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 94; @symbol_moduledef = [system_size__menu_header,94,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 94; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [width,95,18,23]; @symbol_type<0> = [Number,95,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 96; @position = 18; @symbol_constdef = [height,96,18,24]; @symbol_type<0> = [Number,96,28,34]; ]
+            const height as Number = 81;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 99; @symbol_moduledef = [system_loc__hint_button_left_bottom,99,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 99; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [x,100,18,19]; @symbol_type<0> = [Number,100,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [y,101,18,19]; @symbol_type<0> = [Number,101,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 104; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,104,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 104; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [exclude,105,18,25]; @symbol_type<0> = [Boolean,105,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 108; @symbol_moduledef = [prompt_loc__body_no_title,108,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [x,109,18,19]; @symbol_type<0> = [Number,109,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 110; @position = 18; @symbol_constdef = [y,110,18,19]; @symbol_type<0> = [Number,110,23,29]; ]
+            const y as Number = 26;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 113; @symbol_moduledef = [system_icon_dark__about,113,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 113; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [filename,114,18,26]; @symbol_type<0> = [String,114,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__about.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [compress,115,18,26]; @symbol_type<0> = [String,115,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [dithering,116,18,27]; @symbol_type<0> = [String,116,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [automaticPalette,117,18,34]; @symbol_type<0> = [String,117,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 120; @symbol_moduledef = [system_icon_light__question,120,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 120; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [filename,121,18,26]; @symbol_type<0> = [String,121,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__question.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [dithering,122,18,27]; @symbol_type<0> = [String,122,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 125; @symbol_moduledef = [system_loc__hint_button_left_top,125,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [exclude,126,18,25]; @symbol_type<0> = [Boolean,126,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 129; @symbol_moduledef = [prompt_font__title,129,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 129; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 130 18 ]
+                symbol [ Graphics %tmp.64 130 34 42 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.65 130 43 62 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.66 130 63 71 ];
+                %tmp.66 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.67 130 72 92 ];
+                %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_VCENTER;
+                %tmp.68 = bitor %tmp.65 %tmp.67;
+                putv self :justification %tmp.68;
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 131 18 ]
+                symbol [ Graphics %tmp.69 131 25 33 ];
+                %tmp.69 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.70 131 34 44 ];
+                %tmp.70 = getv %tmp.69 :FONT_XTINY;
+                putv self :font %tmp.70;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 130; @position = 18; @symbol_constdef = [justification,130,18,31]; ]
+            const justification;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [font,131,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 134; @symbol_moduledef = [system_icon_dark__discard,134,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 134; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 135; @position = 18; @symbol_constdef = [filename,135,18,26]; @symbol_type<0> = [String,135,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__discard.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [compress,136,18,26]; @symbol_type<0> = [String,136,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [dithering,137,18,27]; @symbol_type<0> = [String,137,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [automaticPalette,138,18,34]; @symbol_type<0> = [String,138,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 141; @symbol_moduledef = [system_size__menu_item,141,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [width,142,18,23]; @symbol_type<0> = [Number,142,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [height,143,18,24]; @symbol_type<0> = [Number,143,28,34]; ]
+            const height as Number = 68;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 146; @symbol_moduledef = [system_color_dark__text,146,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 146; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 148 18 ]
+                symbol [ Graphics %tmp.71 148 31 39 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.72 148 40 57 ];
+                %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
+                putv self :background %tmp.72;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [color,147,18,23]; @symbol_type<0> = [Number,147,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [background,148,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 151; @symbol_moduledef = [system_icon_destructive__discard,151,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [filename,152,18,26]; @symbol_type<0> = [String,152,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__discard.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [dithering,153,18,27]; @symbol_type<0> = [String,153,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 156; @symbol_moduledef = [system_icon_dark__hint_action_menu,156,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [filename,157,18,26]; @symbol_type<0> = [String,157,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [dithering,158,18,27]; @symbol_type<0> = [String,158,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [prompt_size__title,161,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [width,162,18,23]; @symbol_type<0> = [Number,162,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [height,163,18,24]; @symbol_type<0> = [Number,163,28,34]; ]
+            const height as Number = 39;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 166; @symbol_moduledef = [confirmation_font__body,166,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 167 18 ]
+                symbol [ Graphics %tmp.73 167 34 42 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.74 167 43 62 ];
+                %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.75 167 63 71 ];
+                %tmp.75 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.76 167 72 92 ];
+                %tmp.76 = getv %tmp.75 :TEXT_JUSTIFY_VCENTER;
+                %tmp.77 = bitor %tmp.74 %tmp.76;
+                putv self :justification %tmp.77;
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 168 18 ]
+                symbol [ Graphics %tmp.78 168 25 33 ];
+                %tmp.78 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.79 168 34 43 ];
+                %tmp.79 = getv %tmp.78 :FONT_TINY;
+                putv self :font %tmp.79;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [justification,167,18,31]; ]
+            const justification;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [font,168,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 171; @symbol_moduledef = [system_color_dark__background,171,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [color,172,18,23]; @symbol_type<0> = [Number,172,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [background,173,18,28]; @symbol_type<0> = [Number,173,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,176,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [filename,177,18,26]; @symbol_type<0> = [String,177,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [dithering,178,18,27]; @symbol_type<0> = [String,178,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 181; @symbol_moduledef = [system_size__launch_icon,181,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [scaleX,182,18,24]; @symbol_type<0> = [Number,182,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [scaleY,183,18,24]; @symbol_type<0> = [Number,183,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [scaleRelativeTo,184,18,33]; @symbol_type<0> = [String,184,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 187; @symbol_moduledef = [confirmation_input__confirm,187,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 187; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 188 18 ]
+                symbol [ WatchUi %tmp.80 188 27 34 ];
+                %tmp.80 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.81 188 35 44 ];
+                %tmp.81 = getv %tmp.80 :KEY_ENTER;
+                putv self :button %tmp.81;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [button,188,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 191; @symbol_moduledef = [prompt_font__body_with_title,191,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 191; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 192 18 ]
+                symbol [ Graphics %tmp.82 192 34 42 ];
+                %tmp.82 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.83 192 43 62 ];
+                %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.83;
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 193 18 ]
+                symbol [ Graphics %tmp.84 193 25 33 ];
+                %tmp.84 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.85 193 34 43 ];
+                %tmp.85 = getv %tmp.84 :FONT_TINY;
+                putv self :font %tmp.85;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [justification,192,18,31]; ]
+            const justification;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [font,193,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [confirmation_loc__body,196,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [x,197,18,19]; @symbol_type<0> = [Number,197,23,29]; ]
+            const x as Number = 52;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [y,198,18,19]; @symbol_type<0> = [Number,198,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 201; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,201,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 201; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 202; @position = 18; @symbol_constdef = [filename,202,18,26]; @symbol_type<0> = [String,202,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [dithering,203,18,27]; @symbol_type<0> = [String,203,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 206; @symbol_moduledef = [prompt_color_dark__background,206,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [color,207,18,23]; @symbol_type<0> = [Number,207,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [background,208,18,28]; @symbol_type<0> = [Number,208,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 211; @symbol_moduledef = [system_icon_destructive__hint_action_menu,211,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 211; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [filename,212,18,26]; @symbol_type<0> = [String,212,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 213; @position = 18; @symbol_constdef = [dithering,213,18,27]; @symbol_type<0> = [String,213,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 216; @symbol_moduledef = [system_loc__hint_action_menu,216,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [x,217,18,19]; @symbol_type<0> = [Number,217,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [y,218,18,19]; @symbol_type<0> = [Number,218,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 221; @symbol_moduledef = [confirmation_icon__hint_confirm,221,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [filename,222,18,26]; @symbol_type<0> = [String,222,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [dithering,223,18,27]; @symbol_type<0> = [String,223,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 226; @symbol_moduledef = [system_loc__hint_button_left_middle,226,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [x,227,18,19]; @symbol_type<0> = [Number,227,23,29]; ]
+            const x as Number = 3;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [y,228,18,19]; @symbol_type<0> = [Number,228,23,29]; ]
+            const y as Number = 108;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 231; @symbol_moduledef = [prompt_size__body_no_title,231,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [width,232,18,23]; @symbol_type<0> = [Number,232,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [height,233,18,24]; @symbol_type<0> = [Number,233,28,34]; ]
+            const height as Number = 208;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 236; @symbol_moduledef = [system_icon_light__hint_button_left_top,236,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 236; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 237; @position = 18; @symbol_constdef = [filename,237,18,26]; @symbol_type<0> = [String,237,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 238; @position = 18; @symbol_constdef = [dithering,238,18,27]; @symbol_type<0> = [String,238,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 241; @symbol_moduledef = [prompt_color_light__background,241,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 242; @position = 18; @symbol_constdef = [color,242,18,23]; @symbol_type<0> = [Number,242,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [background,243,18,28]; @symbol_type<0> = [Number,243,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 246; @symbol_moduledef = [confirmation_input__delete,246,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 246; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 247 18 ]
+                symbol [ WatchUi %tmp.86 247 27 34 ];
+                %tmp.86 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.87 247 35 44 ];
+                %tmp.87 = getv %tmp.86 :KEY_ENTER;
+                putv self :button %tmp.87;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [button,247,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 250; @symbol_moduledef = [system_icon_dark__hint_button_left_top,250,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [filename,251,18,26]; @symbol_type<0> = [String,251,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [dithering,252,18,27]; @symbol_type<0> = [String,252,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 255; @symbol_moduledef = [system_input__action_menu,255,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 255; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 256 18 ]
+                symbol [ WatchUi %tmp.88 256 27 34 ];
+                %tmp.88 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.89 256 35 44 ];
+                %tmp.89 = getv %tmp.88 :KEY_ENTER;
+                putv self :button %tmp.89;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [button,256,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 259; @symbol_moduledef = [system_icon_light__save,259,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [filename,260,18,26]; @symbol_type<0> = [String,260,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__save.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [dithering,261,18,27]; @symbol_type<0> = [String,261,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 264; @symbol_moduledef = [prompt_color_light__body,264,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 266 18 ]
+                symbol [ Graphics %tmp.90 266 31 39 ];
+                %tmp.90 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.91 266 40 57 ];
+                %tmp.91 = getv %tmp.90 :COLOR_TRANSPARENT;
+                putv self :background %tmp.91;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [color,265,18,23]; @symbol_type<0> = [Number,265,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [background,266,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 269; @symbol_moduledef = [system_loc__subwindow,269,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 269; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [exclude,270,18,25]; @symbol_type<0> = [Boolean,270,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [system_icon_light__warning,273,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [filename,274,18,26]; @symbol_type<0> = [String,274,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__warning.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [dithering,275,18,27]; @symbol_type<0> = [String,275,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [confirmation_color_light__body,278,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 280 18 ]
+                symbol [ Graphics %tmp.92 280 31 39 ];
+                %tmp.92 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.93 280 40 57 ];
+                %tmp.93 = getv %tmp.92 :COLOR_TRANSPARENT;
+                putv self :background %tmp.93;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [color,279,18,23]; @symbol_type<0> = [Number,279,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [background,280,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 283; @symbol_moduledef = [confirmation_icon_light__hint_keep,283,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [filename,284,18,26]; @symbol_type<0> = [String,284,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [dithering,285,18,27]; @symbol_type<0> = [String,285,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 288; @symbol_moduledef = [activity_color_light__background,288,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [color,289,18,23]; @symbol_type<0> = [Number,289,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [background,290,18,28]; @symbol_type<0> = [Number,290,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [system_icon_positive__hint_button_right_top,293,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [filename,294,18,26]; @symbol_type<0> = [String,294,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [dithering,295,18,27]; @symbol_type<0> = [String,295,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 298; @symbol_moduledef = [system_size__screen,298,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [width,299,18,23]; @symbol_type<0> = [Number,299,27,33]; ]
+            const width as Number = 260;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [height,300,18,24]; @symbol_type<0> = [Number,300,28,34]; ]
+            const height as Number = 260;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 303; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,303,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [filename,304,18,26]; @symbol_type<0> = [String,304,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [dithering,305,18,27]; @symbol_type<0> = [String,305,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [system_color_light__background,308,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [color,309,18,23]; @symbol_type<0> = [Number,309,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [background,310,18,28]; @symbol_type<0> = [Number,310,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 313; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,313,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 313; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [filename,314,18,26]; @symbol_type<0> = [String,314,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [dithering,315,18,27]; @symbol_type<0> = [String,315,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 318; @symbol_moduledef = [confirmation_loc__hint_confirm,318,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 318; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 319; @position = 18; @symbol_constdef = [x,319,18,19]; @symbol_type<0> = [Number,319,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [y,320,18,19]; @symbol_type<0> = [Number,320,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 323; @symbol_moduledef = [activity_color_dark__text,323,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 323; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 325 18 ]
+                symbol [ Graphics %tmp.94 325 31 39 ];
+                %tmp.94 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.95 325 40 57 ];
+                %tmp.95 = getv %tmp.94 :COLOR_TRANSPARENT;
+                putv self :background %tmp.95;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [color,324,18,23]; @symbol_type<0> = [Number,324,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [background,325,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 328; @symbol_moduledef = [confirmation_input__keep,328,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 328; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 329 18 ]
+                symbol [ WatchUi %tmp.96 329 27 34 ];
+                %tmp.96 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.97 329 35 43 ];
+                %tmp.97 = getv %tmp.96 :KEY_DOWN;
+                putv self :button %tmp.97;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [button,329,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 332; @symbol_moduledef = [prompt_loc__body_with_title,332,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [x,333,18,19]; @symbol_type<0> = [Number,333,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 334; @position = 18; @symbol_constdef = [y,334,18,19]; @symbol_type<0> = [Number,334,23,29]; ]
+            const y as Number = 78;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 337; @symbol_moduledef = [system_icon_dark__search,337,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [filename,338,18,26]; @symbol_type<0> = [String,338,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__search.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [compress,339,18,26]; @symbol_type<0> = [String,339,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [dithering,340,18,27]; @symbol_type<0> = [String,340,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [automaticPalette,341,18,34]; @symbol_type<0> = [String,341,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 344; @symbol_moduledef = [activity_color_light__text,344,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 344; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 346 18 ]
+                symbol [ Graphics %tmp.98 346 31 39 ];
+                %tmp.98 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.99 346 40 57 ];
+                %tmp.99 = getv %tmp.98 :COLOR_TRANSPARENT;
+                putv self :background %tmp.99;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [color,345,18,23]; @symbol_type<0> = [Number,345,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [background,346,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 349; @symbol_moduledef = [confirmation_icon__hint_keep,349,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [filename,350,18,26]; @symbol_type<0> = [String,350,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [dithering,351,18,27]; @symbol_type<0> = [String,351,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 354; @symbol_moduledef = [system_icon_dark__save,354,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 354; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [filename,355,18,26]; @symbol_type<0> = [String,355,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__save.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [compress,356,18,26]; @symbol_type<0> = [String,356,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [dithering,357,18,27]; @symbol_type<0> = [String,357,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [automaticPalette,358,18,34]; @symbol_type<0> = [String,358,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 361; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,361,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [filename,362,18,26]; @symbol_type<0> = [String,362,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [dithering,363,18,27]; @symbol_type<0> = [String,363,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 366; @symbol_moduledef = [system_icon_light__search,366,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [filename,367,18,26]; @symbol_type<0> = [String,367,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__search.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [dithering,368,18,27]; @symbol_type<0> = [String,368,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,371,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [system_icon_positive__hint_button_left_top,376,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [filename,377,18,26]; @symbol_type<0> = [String,377,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [dithering,378,18,27]; @symbol_type<0> = [String,378,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 381; @symbol_moduledef = [system_loc__hint_button_right_bottom,381,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 381; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [x,382,18,19]; @symbol_type<0> = [Number,382,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [y,383,18,19]; @symbol_type<0> = [Number,383,23,29]; ]
+            const y as Number = 172;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 386; @symbol_moduledef = [confirmation_icon_dark__hint_reject,386,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [filename,387,18,26]; @symbol_type<0> = [String,387,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [dithering,388,18,27]; @symbol_type<0> = [String,388,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 391; @symbol_moduledef = [confirmation_color_dark__body,391,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 391; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 393 18 ]
+                symbol [ Graphics %tmp.100 393 31 39 ];
+                %tmp.100 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.101 393 40 57 ];
+                %tmp.101 = getv %tmp.100 :COLOR_TRANSPARENT;
+                putv self :background %tmp.101;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [color,392,18,23]; @symbol_type<0> = [Number,392,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [background,393,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 396; @symbol_moduledef = [confirmation_icon_light__hint_confirm,396,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [filename,397,18,26]; @symbol_type<0> = [String,397,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [dithering,398,18,27]; @symbol_type<0> = [String,398,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 401; @symbol_moduledef = [prompt_color_dark__title,401,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 401; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 403 18 ]
+                symbol [ Graphics %tmp.102 403 31 39 ];
+                %tmp.102 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.103 403 40 57 ];
+                %tmp.103 = getv %tmp.102 :COLOR_TRANSPARENT;
+                putv self :background %tmp.103;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [color,402,18,23]; @symbol_type<0> = [Number,402,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [background,403,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 406; @symbol_moduledef = [system_icon_destructive__cancel,406,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [filename,407,18,26]; @symbol_type<0> = [String,407,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [dithering,408,18,27]; @symbol_type<0> = [String,408,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 411; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,411,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 411; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [filename,412,18,26]; @symbol_type<0> = [String,412,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 413; @position = 18; @symbol_constdef = [dithering,413,18,27]; @symbol_type<0> = [String,413,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 416; @symbol_moduledef = [prompt_loc__title,416,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [x,417,18,19]; @symbol_type<0> = [Number,417,23,29]; ]
+            const x as Number = 26;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [y,418,18,19]; @symbol_type<0> = [Number,418,23,29]; ]
+            const y as Number = 19;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 421; @symbol_moduledef = [confirmation_font_enhanced_readability__body,421,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [exclude,422,18,25]; @symbol_type<0> = [Boolean,422,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [prompt_color_light__title,425,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 427 18 ]
+                symbol [ Graphics %tmp.104 427 31 39 ];
+                %tmp.104 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.105 427 40 57 ];
+                %tmp.105 = getv %tmp.104 :COLOR_TRANSPARENT;
+                putv self :background %tmp.105;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [color,426,18,23]; @symbol_type<0> = [Number,426,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [background,427,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 430; @symbol_moduledef = [system_icon_dark__hint_button_right_top,430,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [filename,431,18,26]; @symbol_type<0> = [String,431,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [dithering,432,18,27]; @symbol_type<0> = [String,432,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 435; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,435,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [filename,436,18,26]; @symbol_type<0> = [String,436,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [dithering,437,18,27]; @symbol_type<0> = [String,437,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 440; @symbol_moduledef = [confirmation_icon_dark__hint_keep,440,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [dithering,442,18,27]; @symbol_type<0> = [String,442,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 445; @symbol_moduledef = [system_icon_light__cancel,445,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [filename,446,18,26]; @symbol_type<0> = [String,446,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__cancel.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [dithering,447,18,27]; @symbol_type<0> = [String,447,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 450; @symbol_moduledef = [confirmation_icon_light__hint_reject,450,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [filename,451,18,26]; @symbol_type<0> = [String,451,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [dithering,452,18,27]; @symbol_type<0> = [String,452,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 455; @symbol_moduledef = [system_icon_light__about,455,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [filename,456,18,26]; @symbol_type<0> = [String,456,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__about.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [dithering,457,18,27]; @symbol_type<0> = [String,457,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 460; @symbol_moduledef = [system_size__toast_icon,460,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [scaleX,461,18,24]; @symbol_type<0> = [Number,461,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [scaleY,462,18,24]; @symbol_type<0> = [Number,462,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 463; @position = 18; @symbol_constdef = [scaleRelativeTo,463,18,33]; @symbol_type<0> = [String,463,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 466; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,466,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [exclude,467,18,25]; @symbol_type<0> = [Boolean,467,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 470; @symbol_moduledef = [confirmation_icon__hint_reject,470,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [filename,471,18,26]; @symbol_type<0> = [String,471,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [dithering,472,18,27]; @symbol_type<0> = [String,472,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 475; @symbol_moduledef = [system_icon_light__hint_action_menu,475,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 475; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 476; @position = 18; @symbol_constdef = [filename,476,18,26]; @symbol_type<0> = [String,476,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [dithering,477,18,27]; @symbol_type<0> = [String,477,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 480; @symbol_moduledef = [system_icon_light__hint_button_right_middle,480,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [exclude,481,18,25]; @symbol_type<0> = [Boolean,481,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 484; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,484,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [exclude,485,18,25]; @symbol_type<0> = [Boolean,485,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 488; @symbol_moduledef = [confirmation_loc__hint_reject,488,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [x,489,18,19]; @symbol_type<0> = [Number,489,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [y,490,18,19]; @symbol_type<0> = [Number,490,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [horizontalJustification,491,18,41]; @symbol_type<0> = [String,491,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 494; @symbol_moduledef = [confirmation_icon_dark__hint_delete,494,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [filename,495,18,26]; @symbol_type<0> = [String,495,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [dithering,496,18,27]; @symbol_type<0> = [String,496,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 499; @symbol_moduledef = [activity_color_dark__background,499,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 500; @position = 18; @symbol_constdef = [color,500,18,23]; @symbol_type<0> = [Number,500,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [background,501,18,28]; @symbol_type<0> = [Number,501,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 504; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,504,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [filename,505,18,26]; @symbol_type<0> = [String,505,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [dithering,506,18,27]; @symbol_type<0> = [String,506,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 509; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,509,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [filename,510,18,26]; @symbol_type<0> = [String,510,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [dithering,511,18,27]; @symbol_type<0> = [String,511,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 514; @symbol_moduledef = [system_size__menu_icon,514,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [scaleX,515,18,24]; @symbol_type<0> = [Number,515,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [scaleY,516,18,24]; @symbol_type<0> = [Number,516,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [scaleRelativeTo,517,18,33]; @symbol_type<0> = [String,517,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 520; @symbol_moduledef = [system_icon_destructive__warning,520,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 521; @position = 18; @symbol_constdef = [filename,521,18,26]; @symbol_type<0> = [String,521,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_destructive__warning.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [dithering,522,18,27]; @symbol_type<0> = [String,522,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 525; @symbol_moduledef = [system_loc__hint_button_right_middle,525,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [exclude,526,18,25]; @symbol_type<0> = [Boolean,526,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 529; @symbol_moduledef = [system_icon_dark__cancel,529,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 529; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 530; @position = 18; @symbol_constdef = [filename,530,18,26]; @symbol_type<0> = [String,530,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__cancel.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [compress,531,18,26]; @symbol_type<0> = [String,531,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [dithering,532,18,27]; @symbol_type<0> = [String,532,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [automaticPalette,533,18,34]; @symbol_type<0> = [String,533,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 536; @symbol_moduledef = [prompt_size__body_with_title,536,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [width,537,18,23]; @symbol_type<0> = [Number,537,27,33]; ]
+            const width as Number = 208;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [height,538,18,24]; @symbol_type<0> = [Number,538,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [system_loc__hint_button_right_top,541,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [x,542,18,19]; @symbol_type<0> = [Number,542,23,29]; ]
+            const x as Number = 225;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [y,543,18,19]; @symbol_type<0> = [Number,543,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 546; @symbol_moduledef = [system_color_light__text,546,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 548 18 ]
+                symbol [ Graphics %tmp.106 548 31 39 ];
+                %tmp.106 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.107 548 40 57 ];
+                %tmp.107 = getv %tmp.106 :COLOR_TRANSPARENT;
+                putv self :background %tmp.107;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [color,547,18,23]; @symbol_type<0> = [Number,547,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [background,548,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 551; @symbol_moduledef = [system_icon_light__check,551,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [filename,552,18,26]; @symbol_type<0> = [String,552,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__check.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [dithering,553,18,27]; @symbol_type<0> = [String,553,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 556; @symbol_moduledef = [confirmation_input__reject,556,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 556; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 557 18 ]
+                symbol [ WatchUi %tmp.108 557 27 34 ];
+                %tmp.108 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.109 557 35 43 ];
+                %tmp.109 = getv %tmp.108 :KEY_DOWN;
+                putv self :button %tmp.109;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [button,557,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 560; @symbol_moduledef = [system_icon_light__revert,560,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [filename,561,18,26]; @symbol_type<0> = [String,561,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__revert.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [dithering,562,18,27]; @symbol_type<0> = [String,562,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 565; @symbol_moduledef = [system_size__subwindow,565,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [exclude,566,18,25]; @symbol_type<0> = [Boolean,566,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 569; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,569,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [filename,570,18,26]; @symbol_type<0> = [String,570,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 574; @symbol_moduledef = [system_icon_dark__check,574,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [filename,575,18,26]; @symbol_type<0> = [String,575,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__check.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [compress,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [dithering,577,18,27]; @symbol_type<0> = [String,577,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [automaticPalette,578,18,34]; @symbol_type<0> = [String,578,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 581; @symbol_moduledef = [confirmation_loc__hint_keep,581,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [x,582,18,19]; @symbol_type<0> = [Number,582,23,29]; ]
+            const x as Number = 10;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [y,583,18,19]; @symbol_type<0> = [Number,583,23,29]; ]
+            const y as Number = 172;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [horizontalJustification,584,18,41]; @symbol_type<0> = [String,584,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 587; @symbol_moduledef = [confirmation_loc__hint_delete,587,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [x,588,18,19]; @symbol_type<0> = [Number,588,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [y,589,18,19]; @symbol_type<0> = [Number,589,23,29]; ]
+            const y as Number = 48;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 592; @symbol_moduledef = [system_icon_positive__hint_action_menu,592,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 592; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 593; @position = 18; @symbol_constdef = [filename,593,18,26]; @symbol_type<0> = [String,593,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [dithering,594,18,27]; @symbol_type<0> = [String,594,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 597; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,597,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [exclude,598,18,25]; @symbol_type<0> = [Boolean,598,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 601; @symbol_moduledef = [system_icon_light__hint_button_left_middle,601,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [filename,602,18,26]; @symbol_type<0> = [String,602,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [dithering,603,18,27]; @symbol_type<0> = [String,603,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 606; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,606,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 606; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [filename,607,18,26]; @symbol_type<0> = [String,607,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [dithering,608,18,27]; @symbol_type<0> = [String,608,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 611; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,611,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 611; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [filename,612,18,26]; @symbol_type<0> = [String,612,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [dithering,613,18,27]; @symbol_type<0> = [String,613,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 616; @symbol_moduledef = [system_icon_dark__revert,616,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 616; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [filename,617,18,26]; @symbol_type<0> = [String,617,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__revert.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [compress,618,18,26]; @symbol_type<0> = [String,618,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 619; @position = 18; @symbol_constdef = [dithering,619,18,27]; @symbol_type<0> = [String,619,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [automaticPalette,620,18,34]; @symbol_type<0> = [String,620,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 623; @symbol_moduledef = [confirmation_icon_light__hint_delete,623,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 623; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [filename,624,18,26]; @symbol_type<0> = [String,624,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [dithering,625,18,27]; @symbol_type<0> = [String,625,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 628; @symbol_moduledef = [system_icon_dark__question,628,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 628; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [filename,629,18,26]; @symbol_type<0> = [String,629,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__question.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [compress,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [dithering,631,18,27]; @symbol_type<0> = [String,631,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [automaticPalette,632,18,34]; @symbol_type<0> = [String,632,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 635; @symbol_moduledef = [system_icon_light__discard,635,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [filename,636,18,26]; @symbol_type<0> = [String,636,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__discard.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [dithering,637,18,27]; @symbol_type<0> = [String,637,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 640; @symbol_moduledef = [device_info,640,15,26]; ]
+        module device_info {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 640; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 642 18 ]
+                symbol [ Toybox %tmp.111 642 32 38 ];
+                %tmp.111 = getv ? :Toybox;
+                symbol [ System %tmp.112 642 39 45 ];
+                %tmp.112 = getv %tmp.111 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.113 642 46 64 ];
+                %tmp.113 = getv %tmp.112 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.113;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [screenWidth,641,18,29]; @symbol_type<0> = [Number,641,33,39]; ]
+            const screenWidth as Number = 260;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 642; @position = 18; @symbol_constdef = [screenShape,642,18,29]; ]
+            const screenShape;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 643; @position = 18; @symbol_constdef = [hasNightMode,643,18,30]; @symbol_type<0> = [Boolean,643,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [hasGpu,644,18,24]; @symbol_type<0> = [Boolean,644,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [screenHeight,645,18,30]; @symbol_type<0> = [Number,645,34,40]; ]
+            const screenHeight as Number = 260;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [hasTouchScreen,646,18,32]; @symbol_type<0> = [Boolean,646,36,43]; ]
+            const hasTouchScreen as Boolean = false;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,647,18,44]; @symbol_type<0> = [Boolean,647,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 650; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,650,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 651; @position = 18; @symbol_constdef = [filename,651,18,26]; @symbol_type<0> = [String,651,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [dithering,652,18,27]; @symbol_type<0> = [String,652,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 655; @symbol_moduledef = [prompt_font__body_no_title,655,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 655; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 656 18 ]
+                symbol [ Graphics %tmp.114 656 34 42 ];
+                %tmp.114 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.115 656 43 62 ];
+                %tmp.115 = getv %tmp.114 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.116 656 63 71 ];
+                %tmp.116 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.117 656 72 92 ];
+                %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_VCENTER;
+                %tmp.118 = bitor %tmp.115 %tmp.117;
+                putv self :justification %tmp.118;
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 657 18 ]
+                symbol [ Graphics %tmp.119 657 25 33 ];
+                %tmp.119 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.120 657 34 43 ];
+                %tmp.120 = getv %tmp.119 :FONT_TINY;
+                putv self :font %tmp.120;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [justification,656,18,31]; ]
+            const justification;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [font,657,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 660; @symbol_moduledef = [prompt_size__title_icon,660,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [scaleX,661,18,24]; @symbol_type<0> = [Float,661,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [scaleRelativeTo,662,18,33]; @symbol_type<0> = [String,662,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 665; @symbol_moduledef = [system_icon_dark__warning,665,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 665; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 666; @position = 18; @symbol_constdef = [filename,666,18,26]; @symbol_type<0> = [String,666,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_dark__warning.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 667; @position = 18; @symbol_constdef = [compress,667,18,26]; @symbol_type<0> = [String,667,30,36]; ]
+            const compress as String = "true";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [dithering,668,18,27]; @symbol_type<0> = [String,668,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [automaticPalette,669,18,34]; @symbol_type<0> = [String,669,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 672; @symbol_moduledef = [prompt_loc__title_icon,672,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [x,673,18,19]; @symbol_type<0> = [Number,673,23,29]; ]
+            const x as Number = 130;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [y,674,18,19]; @symbol_type<0> = [Number,674,23,29]; ]
+            const y as Number = 39;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [horizontalJustification,675,18,41]; @symbol_type<0> = [String,675,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [verticalJustification,676,18,39]; @symbol_type<0> = [String,676,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 679; @symbol_moduledef = [prompt_font_enhanced_readability__title,679,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 679; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [exclude,680,18,25]; @symbol_type<0> = [Boolean,680,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 683; @symbol_moduledef = [prompt_color_dark__body,683,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+[ "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen" 685 18 ]
+                symbol [ Graphics %tmp.121 685 31 39 ];
+                %tmp.121 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.122 685 40 57 ];
+                %tmp.122 = getv %tmp.121 :COLOR_TRANSPARENT;
+                putv self :background %tmp.122;
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 684; @position = 18; @symbol_constdef = [color,684,18,23]; @symbol_type<0> = [Number,684,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 685; @position = 18; @symbol_constdef = [background,685,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 688; @symbol_moduledef = [confirmation_icon__hint_delete,688,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 688; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [filename,689,18,26]; @symbol_type<0> = [String,689,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 690; @position = 18; @symbol_constdef = [dithering,690,18,27]; @symbol_type<0> = [String,690,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 693; @symbol_moduledef = [system_icon_light__hint_button_right_top,693,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 693; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 694; @position = 18; @symbol_constdef = [filename,694,18,26]; @symbol_type<0> = [String,694,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 695; @position = 18; @symbol_constdef = [dithering,695,18,27]; @symbol_type<0> = [String,695,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 698; @symbol_moduledef = [confirmation_size__body,698,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 698; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 699; @position = 18; @symbol_constdef = [width,699,18,23]; @symbol_type<0> = [Number,699,27,33]; ]
+            const width as Number = 156;
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 700; @position = 18; @symbol_constdef = [height,700,18,24]; @symbol_type<0> = [Number,700,28,34]; ]
+            const height as Number = 156;
+        }
+        [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 703; @symbol_moduledef = [system_icon_positive__check,703,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 703; ]
+            <init> {
+            }
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [filename,704,18,26]; @symbol_type<0> = [String,704,30,36]; ]
+            const filename as String = "C:\\Users\\massimiliano.ranaldi\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6pro\\system_icon_positive__check.svg";
+            [ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 705; @position = 18; @symbol_constdef = [dithering,705,18,27]; @symbol_type<0> = [String,705,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\GarminProject\MeteoSport\MeteoSport\bin\gen\006-B3290-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

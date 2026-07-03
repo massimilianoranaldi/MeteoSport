@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="700"
+   height="700"
+   viewBox="0 0 28 28"
+   id="Layer_1"
+   data-name="Layer 1"
+   version="1.1"
+   sodipodi:docname="uv-index-alt-svgrepo-com.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="28"
+       height="28"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch5"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#00aaff;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+    </linearGradient>
+    <style
+       id="style1">
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient2"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient3"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient4"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient7"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient8"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient9"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient10"
+       gradientUnits="userSpaceOnUse"
+       x1="2"
+       y1="16"
+       x2="30"
+       y2="16" />
+  </defs>
+  <g
+     id="g5"
+     style="fill:url(#linearGradient5)"
+     transform="translate(-2,-2)">
+    <path
+       d="M 13,30 H 9 A 2.0027,2.0027 0 0 1 7,28 v -8 h 2 v 8 h 4 v -8 h 2 v 8 a 2.0027,2.0027 0 0 1 -2,2 z"
+       id="path1"
+       style="fill:url(#linearGradient2)" />
+    <polygon
+       points="22.5,30 25,20 23.25,20 21,29.031 18.792,20 17,20 19.5,30 "
+       id="polygon1"
+       style="fill:url(#linearGradient3)" />
+    <rect
+       x="15"
+       y="2"
+       width="2"
+       height="5"
+       id="rect1"
+       style="fill:url(#linearGradient4)" />
+    <rect
+       x="21.6675"
+       y="6.8536"
+       width="4.9580002"
+       height="1.9998"
+       transform="rotate(-45,24.14652,7.8534841)"
+       id="rect2"
+       style="fill:url(#linearGradient6)" />
+    <rect
+       x="25"
+       y="15"
+       width="5"
+       height="2"
+       id="rect3"
+       style="fill:url(#linearGradient7)" />
+    <rect
+       x="2"
+       y="15"
+       width="5"
+       height="2"
+       id="rect4"
+       style="fill:url(#linearGradient8)" />
+    <rect
+       x="6.8536"
+       y="5.3744998"
+       width="1.9998"
+       height="4.9580002"
+       transform="rotate(-45,7.8535131,7.8534684)"
+       id="rect5"
+       style="fill:url(#linearGradient9)" />
+    <path
+       d="m 22,17 h -2 v -1 a 4,4 0 0 0 -8,0 v 1 h -2 v -1 a 6,6 0 0 1 12,0 z"
+       id="path5"
+       style="fill:url(#linearGradient10)" />
+  </g>
+  <rect
+     id="_Transparent_Rectangle_"
+     data-name="&lt;Transparent Rectangle&gt;"
+     class="cls-1"
+     width="32"
+     height="32"
+     x="-2"
+     y="-2" />
+</svg>

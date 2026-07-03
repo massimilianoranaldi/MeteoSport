@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="sunrise-up-svgrepo-com.svg"
+   inkscape:export-filename="sunrise-up-svgrepo-com.png"
+   inkscape:export-xdpi="2.8800001"
+   inkscape:export-ydpi="2.8800001"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#aaaaaa;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="2"
+       y1="12"
+       x2="22"
+       y2="12"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.06375"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 7,15.000394 a 5,5 0 0 1 10,0 1,1 0 0 1 -2,0 3,3 0 0 0 -6,0 1,1 0 0 1 -2,0 z m 11,-4.586 0.707,-0.7070004 a 1,1 0 0 0 -1.414,-1.414 l -0.707,0.707 A 1,1 0 1 0 18,10.414394 Z m 2,5.586 h 1 a 1,1 0 0 0 0,-2 h -1 a 1,1 0 0 0 0,2 z m -16,-2 H 3 a 1,1 0 0 0 0,2 h 1 a 1,1 0 0 0 0,-2 z M 5.293,9.7073936 6,10.414394 A 1,1 0 1 0 7.414,9.0003936 l -0.707,-0.707 a 1,1 0 0 0 -1.414,1.414 z M 4,18.000394 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 0,-2 H 5 a 1,1 0 0 0 -1,1 z m 4,3 a 1,1 0 0 0 0,2 h 8 a 1,1 0 0 0 0,-2 z M 12,9.0003936 a 1,1 0 0 0 1,-1 v -3.586 l 1.293,1.293 a 1,1 0 0 0 1.414,-1.414 l -3,-3 a 1,1 0 0 0 -1.416,0 l -3,3 a 1.0005563,1.0005563 0 0 0 1.416,1.414 l 1.293,-1.293 v 3.586 a 1,1 0 0 0 1,1 z"
+     id="path1"
+     style="fill:url(#linearGradient1)" />
+</svg>

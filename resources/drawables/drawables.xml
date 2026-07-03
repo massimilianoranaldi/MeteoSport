@@ -1,0 +1,56 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" dithering="none" />
+    
+    <!--METEO-->
+    <bitmap id="wiNa"               filename="meteo/wi-na_blue.png"                dithering="none" />
+    <bitmap id="wiRain"             filename="meteo/wi-rain_blue.png"              dithering="none" />
+    <bitmap id="wiCloudy"           filename="meteo/wi-cloudy_blue.png"            dithering="none" />
+    <bitmap id="wiDayCloudy"        filename="meteo/wi-day-cloudy_blue.png"        dithering="none" />
+    <bitmap id="wiDayRain"          filename="meteo/wi-day-rain_blue.png"          dithering="none" />
+    <bitmap id="wiDayShowers"       filename="meteo/wi-day-showers_blue.png"       dithering="none" />
+    <bitmap id="wiDaySnow"          filename="meteo/wi-day-snow_blue.png"          dithering="none" />
+    <bitmap id="wiDaySprinkle"      filename="meteo/wi-day-sprinkle_blue.png"      dithering="none" />
+    <bitmap id="wiDaySunny"         filename="meteo/wi-day-sunny_blue.png"         dithering="none" />
+    <bitmap id="wiDaySunnyOvercast" filename="meteo/wi-day-sunny-overcast_blue.png" dithering="none" />
+    <bitmap id="wiRainMix"          filename="meteo/wi-rain-mix_blue.png"          dithering="none" />
+    <bitmap id="wiRainWind"         filename="meteo/wi-rain-wind_blue.png"         dithering="none" />
+    <bitmap id="wiShowers"          filename="meteo/wi-showers_blue.png"           dithering="none" />
+    <bitmap id="wiSnow"             filename="meteo/wi-snow_blue.png"              dithering="none" />
+    <bitmap id="wiSnowWind"         filename="meteo/wi-snow-wind_blue.png"         dithering="none" />
+    <bitmap id="wiSprinkle"         filename="meteo/wi-sprinkle_blue.png"          dithering="none" />
+    <bitmap id="wiStormShowers"     filename="meteo/wi-storm-showers_blue.png"     dithering="none" />
+    <bitmap id="wiThunderstorm"     filename="meteo/wi-thunderstorm_blue.png"      dithering="none" />
+    <bitmap id="wiDayFog"           filename="meteo/wi-day-fog_blue.png"           dithering="none" />
+    <bitmap id="wiDayHaze"          filename="meteo/wi-day-haze_blue.png"          dithering="none" />
+
+    
+    
+  <!--STATICHE-->  
+    <bitmap id="Alba"           filename="meteo/statiche/sunrise-up-svgrepo-com_blue.png"           dithering="none" />
+    <bitmap id="Tramonto"          filename="meteo/statiche/sunset-down-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="Vento"          filename="meteo/statiche/wind-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="CoperturaCielo"          filename="meteo/statiche/cloudy-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="Umidita"          filename="meteo/statiche/rain-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="PercPioggia"          filename="meteo/statiche/umbrella-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="UvIndex"          filename="meteo/statiche/uv-index_blue.png"          dithering="none" />
+    <bitmap id="Pioggia"          filename="meteo/statiche/livello_pioggia_blue.png"          dithering="none" />
+
+
+
+
+  <!--SISTEMA-->
+    <bitmap id="blueOn"          filename="sistema/bluetooth_on.png"          dithering="none" />
+    <bitmap id="blueOff"          filename="sistema/bluetooth_off.png"          dithering="none" />
+
+
+
+      <!--UTENTE-->
+    <bitmap id="Gradini"          filename="stairs-svgrepo-com_blue.png"          dithering="none" />
+    <bitmap id="Foot"          filename="footprint_blue.png"          dithering="none" />
+    <bitmap id="Calorie"          filename="calorie_blue.png"          dithering="none" />
+    <bitmap id="MinAttivita"          filename="min_attivita_blue.png"          dithering="none" />
+
+    <!--LOGO-->
+     <bitmap id="Pep"          filename="PeP.png"          dithering="none" />
+    
+</drawables>

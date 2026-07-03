@@ -1,0 +1,40 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">MeteoSport</string>
+
+    <string id="BackgroundColorTitle">Background Color</string>
+    
+    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+
+    <string id="ColorBlack">Black</string>
+    <string id="ColorDarkGray">Dark Gray</string>
+    <string id="ColorLightGray">Light Gray</string>
+    <string id="ColorWhite">White</string>
+
+    <!-- METEO SINISTRA -->
+    <string id="SinistraRiga2Title">Sinistra Riga 2</string>
+    <string id="SinistraRiga3Title">Sinistra Riga 3</string>
+
+    <!-- VOCI METEO per riga 2 e 3  -->
+    
+    <string id="SlotProbPioggia">Prob. pioggia</string>
+    <string id="SlotPioggia">Pioggia</string>
+    <string id="SlotUmidita">Umidità</string>
+    <string id="SlotVento">Vento</string>
+    <string id="SlotCopertura">Copertura cielo</string>
+    <string id="SlotUV">Indice UVx</string>
+    
+    <!-- INFO UTENTE DESTRA -->
+    <string id="DestraRiga1Title">Destra Riga 1</string>
+    <string id="DestraRiga2Title">Destra Riga 2</string>
+    <string id="DestraRiga3Title">Destra Riga 3</string>    
+
+    
+    <!-- VOCI INFO UTENTE per riga 1,2 e 3  -->
+    
+    <string id="SlotCalorie">Calorie</string>
+    <string id="SlotPassi">Passi</string>
+    <string id="SlotGradini">Gradini</string>
+
+
+</strings>

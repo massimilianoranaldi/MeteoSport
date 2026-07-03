@@ -1,0 +1,509 @@
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 19; @symbol_importdef<0> = [Toybox,19,7,13]; @symbol_importdef<1> = [Position,19,14,22]; ]
+import Toybox.Position;
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 20; @symbol_importdef<0> = [Toybox,20,7,13]; @symbol_importdef<1> = [System,20,14,20]; ]
+import Toybox.System;
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 21; @symbol_importdef<0> = [Toybox,21,7,13]; @symbol_importdef<1> = [Lang,21,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 22; @symbol_importdef<0> = [Toybox,22,7,13]; @symbol_importdef<1> = [Application,22,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 24; @symbol_classdef = [FunctionBackend,24,6,21]; ]
+class FunctionBackend {
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 24; ]
+    <init> {
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 24; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 27; @position = 17; @symbol_constdef = [DEFAULT_LAT,27,17,28]; @symbol_type<0> = [String,27,32,38]; ]
+    static
+    const DEFAULT_LAT as String = "45.46";
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 28; @position = 17; @symbol_constdef = [DEFAULT_LON,28,17,28]; @symbol_type<0> = [String,28,32,38]; ]
+    static
+    const DEFAULT_LON as String = "9.19";
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 29; @position = 17; @symbol_constdef = [FAKE_COORD,29,17,27]; @symbol_type<0> = [String,29,32,38]; ]
+    static
+    const FAKE_COORD as String = "180.00";
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 31; @position = 17; @symbol_constdef = [KEY_LAST_LAT,31,17,29]; @symbol_type<0> = [String,31,33,39]; ]
+    static
+    const KEY_LAST_LAT as String = "lastLat";
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 32; @position = 17; @symbol_constdef = [KEY_LAST_LON,32,17,29]; @symbol_type<0> = [String,32,33,39]; ]
+    static
+    const KEY_LAST_LON as String = "lastLon";
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 34; @symbol_functiondef = [initialize,34,13,23]; ]
+    function initialize() as Void {
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 39; @symbol_functiondef = [getCoords,39,13,22]; @symbol_return<0> = [Array,39,28,33]; @symbol_return<1> = [String,39,34,40]; ]
+    function getCoords() as Array<String> {
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 40 8 ]
+        symbol [ System %tmp.1 40 8 14 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 40 15 22 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = self;
+        symbol [ getTimestamp %tmp.4 40 23 35 ];
+        %tmp.4 = getv function %tmp.3 :getTimestamp;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = "FunctionBackend.getCoords: inizio";
+        %tmp.7 = add %tmp.5 %tmp.6;
+        invoke %tmp.1 %tmp.2(%tmp.7);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 43 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_stop" ]
+        %gpsCoords.1 = local;
+        symbol [ gpsCoords %gpsCoords.1 43 12 21 ];
+        %tmp.8 = self;
+        symbol [ _getCoordsFromGps %tmp.9 43 24 41 ];
+        %tmp.9 = getv function %tmp.8 :_getCoordsFromGps;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %gpsCoords.1 %tmp.10;
+        symbol [ gpsCoords %gpsCoords.1 43 12 21 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 44 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_8_47_8_if_stmt:
+        %tmp.11 = lgetv %gpsCoords.1;
+        symbol [ gpsCoords %tmp.11 44 12 21 ];
+        %tmp.12 = null;
+        %tmp.13 = ne %tmp.11 %tmp.12;
+        bf %tmp.13 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_8_47_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_8_47_8_if_true:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_31_47_8_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 45 12 ]
+        %tmp.14 = self;
+        symbol [ _saveCoords %tmp.15 45 12 23 ];
+        %tmp.15 = getv function %tmp.14 :_saveCoords;
+        %tmp.16 = lgetv %gpsCoords.1;
+        symbol [ gpsCoords %tmp.16 45 24 33 ];
+        %tmp.17 = as %tmp.16 { (!Null) };
+        %tmp.18 = 0;
+        %tmp.19 = agetv %tmp.17 %tmp.18;
+        %tmp.20 = lgetv %gpsCoords.1;
+        symbol [ gpsCoords %tmp.20 45 38 47 ];
+        %tmp.21 = as %tmp.20 { (!Null) };
+        %tmp.22 = 1;
+        %tmp.23 = agetv %tmp.21 %tmp.22;
+        invoke %tmp.14 %tmp.15(%tmp.19, %tmp.23);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 46 12 ]
+        %tmp.24 = lgetv %gpsCoords.1;
+        symbol [ gpsCoords %tmp.24 46 19 28 ];
+        %tmp.25 = as %tmp.24 { (!Null) };
+        ret %tmp.25;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_31_47_8_stop:
+        goto @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_8_47_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_44_8_47_8_if_end:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 50 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_stop" ]
+        %savedCoords.2 = local;
+        symbol [ savedCoords %savedCoords.2 50 12 23 ];
+        %tmp.26 = self;
+        symbol [ _getCoordsFromStorage %tmp.27 50 26 47 ];
+        %tmp.27 = getv function %tmp.26 :_getCoordsFromStorage;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        lputv %savedCoords.2 %tmp.28;
+        symbol [ savedCoords %savedCoords.2 50 12 23 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 51 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_8_53_8_if_stmt:
+        %tmp.29 = lgetv %savedCoords.2;
+        symbol [ savedCoords %tmp.29 51 12 23 ];
+        %tmp.30 = null;
+        %tmp.31 = ne %tmp.29 %tmp.30;
+        bf %tmp.31 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_8_53_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_8_53_8_if_true:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_33_53_8_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 52 12 ]
+        %tmp.32 = lgetv %savedCoords.2;
+        symbol [ savedCoords %tmp.32 52 19 30 ];
+        %tmp.33 = as %tmp.32 { (!Null) };
+        ret %tmp.33;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_33_53_8_stop:
+        goto @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_8_53_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_51_8_53_8_if_end:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 56 8 ]
+        symbol [ System %tmp.34 56 8 14 ];
+        %tmp.34 = getm $.Toybox.System;
+        symbol [ println %tmp.35 56 15 22 ];
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.36 = self;
+        symbol [ getTimestamp %tmp.37 56 23 35 ];
+        %tmp.37 = getv function %tmp.36 :getTimestamp;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.39 = "FunctionBackend.getCoords: fallback default ";
+        %tmp.40 = add %tmp.38 %tmp.39;
+        symbol [ DEFAULT_LAT %tmp.42 56 89 100 ];
+        %tmp.42 = getv ? :DEFAULT_LAT;
+        %tmp.43 = add %tmp.40 %tmp.42;
+        %tmp.44 = ",";
+        %tmp.45 = add %tmp.43 %tmp.44;
+        symbol [ DEFAULT_LON %tmp.47 56 109 120 ];
+        %tmp.47 = getv ? :DEFAULT_LON;
+        %tmp.48 = add %tmp.45 %tmp.47;
+        invoke %tmp.34 %tmp.35(%tmp.48);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 57 8 ]
+        %tmp.49 = newa 2;
+        symbol [ DEFAULT_LAT %tmp.51 57 16 27 ];
+        %tmp.51 = getv ? :DEFAULT_LAT;
+        %tmp.52 = dup %tmp.49;
+        %tmp.53 = aputv %tmp.52 0 %tmp.51;
+        symbol [ DEFAULT_LON %tmp.55 57 29 40 ];
+        %tmp.55 = getv ? :DEFAULT_LON;
+        %tmp.56 = dup %tmp.53;
+        %tmp.57 = aputv %tmp.56 1 %tmp.55;
+        ret %tmp.57;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_39_42_58_4_stop:
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 62; @symbol_functiondef = [_getCoordsFromGps,62,13,30]; @symbol_return<0> = [Array,62,36,41]; @symbol_return<1> = [String,62,42,48]; ]
+    function _getCoordsFromGps() as Array<String> or Null {
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 63 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 63 12 16 ];
+        symbol [ Position %tmp.1 63 19 27 ];
+        %tmp.1 = getm $.Toybox.Position;
+        symbol [ getInfo %tmp.2 63 28 35 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 63 12 16 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 65 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_stmt:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_12_66_38_begin:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_12_65_45_begin:
+        %tmp.4 = lgetv %info.1;
+        symbol [ info %tmp.4 65 12 16 ];
+        %tmp.5 = null;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bt %tmp.6 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_true;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_28_65_45_false:
+        %tmp.7 = lgetv %info.1;
+        symbol [ info %tmp.7 65 28 32 ];
+        %tmp.8 = as %tmp.7 { (!Null) };
+        symbol [ position %tmp.9 65 33 41 ];
+        %tmp.9 = getv %tmp.8 :position;
+        %tmp.10 = null;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        push %tmp.11;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_28_65_45_end:
+        %tmp.12 = phi [%tmp.6 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_12_65_45_begin] [%tmp.11 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_28_65_45_false] [%tmp.12 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_28_65_45_end];
+        bt %tmp.12 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_true;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_12_66_38_false:
+        %tmp.13 = lgetv %info.1;
+        symbol [ info %tmp.13 66 12 16 ];
+        %tmp.14 = as %tmp.13 { (!Null) };
+        symbol [ accuracy %tmp.15 66 17 25 ];
+        %tmp.15 = getv %tmp.14 :accuracy;
+        symbol [ Position %tmp.16 66 29 37 ];
+        %tmp.16 = getm $.Toybox.Position;
+        symbol [ QUALITY_NOT_AVAILABLE %tmp.17 66 38 59 ];
+        %tmp.17 = getv %tmp.16 :QUALITY_NOT_AVAILABLE;
+        %tmp.18 = eq %tmp.15 %tmp.17;
+        push %tmp.18;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_12_66_38_end:
+        %tmp.19 = phi [%tmp.12 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_12_66_38_begin] [%tmp.18 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_12_66_38_false] [%tmp.19 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_12_66_38_end];
+        bf %tmp.19 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_true:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_61_69_8_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 67 12 ]
+        symbol [ System %tmp.20 67 12 18 ];
+        %tmp.20 = getm $.Toybox.System;
+        symbol [ println %tmp.21 67 19 26 ];
+        %tmp.21 = getv function %tmp.20 :println;
+        %tmp.22 = self;
+        symbol [ getTimestamp %tmp.23 67 27 39 ];
+        %tmp.23 = getv function %tmp.22 :getTimestamp;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = "FunctionBackend._getCoordsFromGps: GPS non disponibile";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        invoke %tmp.20 %tmp.21(%tmp.26);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 68 12 ]
+        %tmp.27 = null;
+        ret %tmp.27;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_66_61_69_8_stop:
+        goto @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_65_8_69_8_if_end:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 71 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_stop" ]
+        %coords.2 = local;
+        symbol [ coords %coords.2 71 12 18 ];
+        %tmp.28 = lgetv %info.1;
+        symbol [ info %tmp.28 71 21 25 ];
+        symbol [ position %tmp.29 71 26 34 ];
+        %tmp.29 = getv %tmp.28 :position;
+        symbol [ toDegrees %tmp.30 71 35 44 ];
+        %tmp.30 = getv function %tmp.29 :toDegrees;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        %tmp.32 = as %tmp.31 Array<Double>;
+        symbol [ Array %tmp.32 71 50 55 ];
+        symbol [ Double %tmp.32 71 56 62 ];
+        lputv %coords.2 %tmp.32;
+        symbol [ coords %coords.2 71 12 18 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 72 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_stop" ]
+        %lat.3 = local;
+        symbol [ lat %lat.3 72 12 15 ];
+        %tmp.33 = lgetv %coords.2;
+        symbol [ coords %tmp.33 72 21 27 ];
+        %tmp.34 = 0;
+        %tmp.35 = agetv %tmp.33 %tmp.34;
+        symbol [ format %tmp.36 72 31 37 ];
+        %tmp.36 = getv function %tmp.35 :format;
+        %tmp.37 = "%.2f";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        lputv %lat.3 %tmp.38;
+        symbol [ lat %lat.3 72 12 15 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 73 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_stop" ]
+        %lon.4 = local;
+        symbol [ lon %lon.4 73 12 15 ];
+        %tmp.39 = lgetv %coords.2;
+        symbol [ coords %tmp.39 73 21 27 ];
+        %tmp.40 = 1;
+        %tmp.41 = agetv %tmp.39 %tmp.40;
+        symbol [ format %tmp.42 73 31 37 ];
+        %tmp.42 = getv function %tmp.41 :format;
+        %tmp.43 = "%.2f";
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        lputv %lon.4 %tmp.44;
+        symbol [ lon %lon.4 73 12 15 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 76 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_stmt:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_12_76_59_begin:
+        %tmp.45 = lgetv %lat.3;
+        symbol [ lat %tmp.45 76 12 15 ];
+        symbol [ equals %tmp.46 76 16 22 ];
+        %tmp.46 = getv function %tmp.45 :equals;
+        symbol [ FAKE_COORD %tmp.48 76 23 33 ];
+        %tmp.48 = getv ? :FAKE_COORD;
+        %tmp.49 = invoke %tmp.45 %tmp.46(%tmp.48);
+        bt %tmp.49 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_true;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_38_76_59_false:
+        %tmp.50 = lgetv %lon.4;
+        symbol [ lon %tmp.50 76 38 41 ];
+        symbol [ equals %tmp.51 76 42 48 ];
+        %tmp.51 = getv function %tmp.50 :equals;
+        symbol [ FAKE_COORD %tmp.53 76 49 59 ];
+        %tmp.53 = getv ? :FAKE_COORD;
+        %tmp.54 = invoke %tmp.50 %tmp.51(%tmp.53);
+        push %tmp.54;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_38_76_59_end:
+        %tmp.55 = phi [%tmp.49 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_12_76_59_begin] [%tmp.54 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_38_76_59_false] [%tmp.55 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_38_76_59_end];
+        bf %tmp.55 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_true:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_62_79_8_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 77 12 ]
+        symbol [ System %tmp.56 77 12 18 ];
+        %tmp.56 = getm $.Toybox.System;
+        symbol [ println %tmp.57 77 19 26 ];
+        %tmp.57 = getv function %tmp.56 :println;
+        %tmp.58 = self;
+        symbol [ getTimestamp %tmp.59 77 27 39 ];
+        %tmp.59 = getv function %tmp.58 :getTimestamp;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = "FunctionBackend._getCoordsFromGps: coordinate simulatore scartate";
+        %tmp.62 = add %tmp.60 %tmp.61;
+        invoke %tmp.56 %tmp.57(%tmp.62);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 78 12 ]
+        %tmp.63 = null;
+        ret %tmp.63;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_62_79_8_stop:
+        goto @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_76_8_79_8_if_end:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 81 8 ]
+        symbol [ System %tmp.64 81 8 14 ];
+        %tmp.64 = getm $.Toybox.System;
+        symbol [ println %tmp.65 81 15 22 ];
+        %tmp.65 = getv function %tmp.64 :println;
+        %tmp.66 = self;
+        symbol [ getTimestamp %tmp.67 81 23 35 ];
+        %tmp.67 = getv function %tmp.66 :getTimestamp;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        %tmp.69 = "FunctionBackend._getCoordsFromGps: fix lat=";
+        %tmp.70 = add %tmp.68 %tmp.69;
+        %tmp.71 = lgetv %lat.3;
+        symbol [ lat %tmp.71 81 88 91 ];
+        %tmp.72 = add %tmp.70 %tmp.71;
+        %tmp.73 = " lon=";
+        %tmp.74 = add %tmp.72 %tmp.73;
+        %tmp.75 = lgetv %lon.4;
+        symbol [ lon %tmp.75 81 104 107 ];
+        %tmp.76 = add %tmp.74 %tmp.75;
+        %tmp.77 = " acc=";
+        %tmp.78 = add %tmp.76 %tmp.77;
+        %tmp.79 = lgetv %info.1;
+        symbol [ info %tmp.79 81 120 124 ];
+        symbol [ accuracy %tmp.80 81 125 133 ];
+        %tmp.80 = getv %tmp.79 :accuracy;
+        %tmp.81 = add %tmp.78 %tmp.80;
+        invoke %tmp.64 %tmp.65(%tmp.81);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 82 8 ]
+        %tmp.82 = newa 2;
+        %tmp.83 = lgetv %lat.3;
+        symbol [ lat %tmp.83 82 16 19 ];
+        %tmp.84 = dup %tmp.82;
+        %tmp.85 = aputv %tmp.84 0 %tmp.83;
+        %tmp.86 = lgetv %lon.4;
+        symbol [ lon %tmp.86 82 21 24 ];
+        %tmp.87 = dup %tmp.85;
+        %tmp.88 = aputv %tmp.87 1 %tmp.86;
+        ret %tmp.88;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_62_51_83_4_stop:
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 87; @symbol_functiondef = [_getCoordsFromStorage,87,13,34]; @symbol_return<0> = [Array,87,40,45]; @symbol_return<1> = [String,87,46,52]; ]
+    function _getCoordsFromStorage() as Array<String> or Null {
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 88 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_stop" ]
+        %lat.1 = local;
+        symbol [ lat %lat.1 88 12 15 ];
+        symbol [ Application %tmp.1 88 18 29 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 88 30 37 ];
+        %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ getValue %tmp.3 88 38 46 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        symbol [ KEY_LAST_LAT %tmp.5 88 47 59 ];
+        %tmp.5 = getv ? :KEY_LAST_LAT;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
+        %tmp.7 = as %tmp.6 String or Null;
+        symbol [ String %tmp.7 88 64 70 ];
+        lputv %lat.1 %tmp.7;
+        symbol [ lat %lat.1 88 12 15 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 89 8 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_stop" ]
+        %lon.2 = local;
+        symbol [ lon %lon.2 89 12 15 ];
+        symbol [ Application %tmp.8 89 18 29 ];
+        %tmp.8 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.9 89 30 37 ];
+        %tmp.9 = getv %tmp.8 :Storage;
+        symbol [ getValue %tmp.10 89 38 46 ];
+        %tmp.10 = getv function %tmp.9 :getValue;
+        symbol [ KEY_LAST_LON %tmp.12 89 47 59 ];
+        %tmp.12 = getv ? :KEY_LAST_LON;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
+        %tmp.14 = as %tmp.13 String or Null;
+        symbol [ String %tmp.14 89 64 70 ];
+        lputv %lon.2 %tmp.14;
+        symbol [ lon %lon.2 89 12 15 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 91 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_stmt:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_12_91_34_begin:
+        %tmp.15 = lgetv %lat.1;
+        symbol [ lat %tmp.15 91 12 15 ];
+        %tmp.16 = null;
+        %tmp.17 = eq %tmp.15 %tmp.16;
+        bt %tmp.17 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_true;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_27_91_34_false:
+        %tmp.18 = lgetv %lon.2;
+        symbol [ lon %tmp.18 91 27 30 ];
+        %tmp.19 = null;
+        %tmp.20 = eq %tmp.18 %tmp.19;
+        push %tmp.20;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_27_91_34_end:
+        %tmp.21 = phi [%tmp.17 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_12_91_34_begin] [%tmp.20 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_27_91_34_false] [%tmp.21 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_27_91_34_end];
+        bf %tmp.21 @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_true:
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_40_94_8_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 92 12 ]
+        symbol [ System %tmp.22 92 12 18 ];
+        %tmp.22 = getm $.Toybox.System;
+        symbol [ println %tmp.23 92 19 26 ];
+        %tmp.23 = getv function %tmp.22 :println;
+        %tmp.24 = self;
+        symbol [ getTimestamp %tmp.25 92 27 39 ];
+        %tmp.25 = getv function %tmp.24 :getTimestamp;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = "FunctionBackend._getCoordsFromStorage: nessuna coordinata salvata";
+        %tmp.28 = add %tmp.26 %tmp.27;
+        invoke %tmp.22 %tmp.23(%tmp.28);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 93 12 ]
+        %tmp.29 = null;
+        ret %tmp.29;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_40_94_8_stop:
+        goto @C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_end;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_91_8_94_8_if_end:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 96 8 ]
+        symbol [ System %tmp.30 96 8 14 ];
+        %tmp.30 = getm $.Toybox.System;
+        symbol [ println %tmp.31 96 15 22 ];
+        %tmp.31 = getv function %tmp.30 :println;
+        %tmp.32 = self;
+        symbol [ getTimestamp %tmp.33 96 23 35 ];
+        %tmp.33 = getv function %tmp.32 :getTimestamp;
+        %tmp.34 = invoke %tmp.32 %tmp.33();
+        %tmp.35 = "FunctionBackend._getCoordsFromStorage: lat=";
+        %tmp.36 = add %tmp.34 %tmp.35;
+        %tmp.37 = lgetv %lat.1;
+        symbol [ lat %tmp.37 96 88 91 ];
+        %tmp.38 = add %tmp.36 %tmp.37;
+        %tmp.39 = " lon=";
+        %tmp.40 = add %tmp.38 %tmp.39;
+        %tmp.41 = lgetv %lon.2;
+        symbol [ lon %tmp.41 96 104 107 ];
+        %tmp.42 = add %tmp.40 %tmp.41;
+        invoke %tmp.30 %tmp.31(%tmp.42);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 97 8 ]
+        %tmp.43 = newa 2;
+        %tmp.44 = lgetv %lat.1;
+        symbol [ lat %tmp.44 97 16 19 ];
+        %tmp.45 = dup %tmp.43;
+        %tmp.46 = aputv %tmp.45 0 %tmp.44;
+        %tmp.47 = lgetv %lon.2;
+        symbol [ lon %tmp.47 97 21 24 ];
+        %tmp.48 = dup %tmp.46;
+        %tmp.49 = aputv %tmp.48 1 %tmp.47;
+        ret %tmp.49;
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_87_55_98_4_stop:
+    }
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 102; @symbol_functiondef = [_saveCoords,102,13,24]; @symbol_param<0> = [lat,102,25,28]; @symbol_param<0>_type<0> = [String,102,32,38]; @symbol_param<1> = [lon,102,40,43]; @symbol_param<1>_type<0> = [String,102,47,53]; ]
+    function _saveCoords(lat as String, lon as String) as Void {
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_102_63_106_4_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 103 8 ]
+        symbol [ Application %tmp.1 103 8 19 ];
+        %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 103 20 27 ];
+        %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ setValue %tmp.3 103 28 36 ];
+        %tmp.3 = getv function %tmp.2 :setValue;
+        symbol [ KEY_LAST_LAT %tmp.5 103 37 49 ];
+        %tmp.5 = getv ? :KEY_LAST_LAT;
+        %tmp.6 = lgetv %lat;
+        symbol [ lat %tmp.6 103 51 54 ];
+        invoke %tmp.2 %tmp.3(%tmp.5, %tmp.6);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 104 8 ]
+        symbol [ Application %tmp.7 104 8 19 ];
+        %tmp.7 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.8 104 20 27 ];
+        %tmp.8 = getv %tmp.7 :Storage;
+        symbol [ setValue %tmp.9 104 28 36 ];
+        %tmp.9 = getv function %tmp.8 :setValue;
+        symbol [ KEY_LAST_LON %tmp.11 104 37 49 ];
+        %tmp.11 = getv ? :KEY_LAST_LON;
+        %tmp.12 = lgetv %lon;
+        symbol [ lon %tmp.12 104 51 54 ];
+        invoke %tmp.8 %tmp.9(%tmp.11, %tmp.12);
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc" 105 8 ]
+        symbol [ System %tmp.13 105 8 14 ];
+        %tmp.13 = getm $.Toybox.System;
+        symbol [ println %tmp.14 105 15 22 ];
+        %tmp.14 = getv function %tmp.13 :println;
+        %tmp.15 = self;
+        symbol [ getTimestamp %tmp.16 105 23 35 ];
+        %tmp.16 = getv function %tmp.15 :getTimestamp;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        %tmp.18 = "FunctionBackend._saveCoords: salvate lat=";
+        %tmp.19 = add %tmp.17 %tmp.18;
+        %tmp.20 = lgetv %lat;
+        symbol [ lat %tmp.20 105 86 89 ];
+        %tmp.21 = add %tmp.19 %tmp.20;
+        %tmp.22 = " lon=";
+        %tmp.23 = add %tmp.21 %tmp.22;
+        %tmp.24 = lgetv %lon;
+        symbol [ lon %tmp.24 105 102 105 ];
+        %tmp.25 = add %tmp.23 %tmp.24;
+        invoke %tmp.13 %tmp.14(%tmp.25);
+C__GarminProject_MeteoSport_MeteoSport_source_FunctionBackend_mc_102_63_106_4_stop:
+    }
+}
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\FunctionBackend.mc"; @line = 19; ]
+<init> {
+}

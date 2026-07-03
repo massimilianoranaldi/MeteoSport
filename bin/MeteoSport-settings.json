@@ -1,0 +1,209 @@
+{
+  "settings" : [ {
+    "key" : "BackgroundColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "BackgroundColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "UseMilitaryFormat",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "MilitaryFormatTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SinistraRiga2",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "SinistraRiga2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotProbPioggia",
+      "value" : 0
+    }, {
+      "display" : "SlotPioggia",
+      "value" : 1
+    }, {
+      "display" : "SlotUmidita",
+      "value" : 2
+    }, {
+      "display" : "SlotVento",
+      "value" : 3
+    }, {
+      "display" : "SlotCopertura",
+      "value" : 4
+    }, {
+      "display" : "SlotUV",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SinistraRiga3",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "SinistraRiga3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotProbPioggia",
+      "value" : 0
+    }, {
+      "display" : "SlotPioggia",
+      "value" : 1
+    }, {
+      "display" : "SlotUmidita",
+      "value" : 2
+    }, {
+      "display" : "SlotVento",
+      "value" : 3
+    }, {
+      "display" : "SlotCopertura",
+      "value" : 4
+    }, {
+      "display" : "SlotUV",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DestraRiga1",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "DestraRiga1Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotCalorie",
+      "value" : 0
+    }, {
+      "display" : "SlotPassi",
+      "value" : 1
+    }, {
+      "display" : "SlotGradini",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DestraRiga2",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "DestraRiga2Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotCalorie",
+      "value" : 0
+    }, {
+      "display" : "SlotPassi",
+      "value" : 1
+    }, {
+      "display" : "SlotGradini",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "DestraRiga3",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "DestraRiga3Title",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SlotCalorie",
+      "value" : 0
+    }, {
+      "display" : "SlotPassi",
+      "value" : 1
+    }, {
+      "display" : "SlotGradini",
+      "value" : 2
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "ColorLightGray" : "Light Gray",
+      "SinistraRiga2Title" : "Sinistra Riga 2",
+      "SlotProbPioggia" : "Prob. pioggia",
+      "BackgroundColorTitle" : "Background Color",
+      "ColorDarkGray" : "Dark Gray",
+      "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
+      "DestraRiga1Title" : "Destra Riga 1",
+      "SlotGradini" : "Gradini",
+      "ColorBlack" : "Black",
+      "DestraRiga2Title" : "Destra Riga 2",
+      "SlotCalorie" : "Calorie",
+      "AppName" : "MeteoSport",
+      "SlotPioggia" : "Pioggia",
+      "SlotPassi" : "Passi",
+      "SlotUV" : "Indice UVx",
+      "SinistraRiga3Title" : "Sinistra Riga 3",
+      "SlotCopertura" : "Copertura cielo",
+      "SlotUmidita" : "Umidità",
+      "ColorWhite" : "White",
+      "SlotVento" : "Vento",
+      "DestraRiga3Title" : "Destra Riga 3"
+    }
+  }
+}

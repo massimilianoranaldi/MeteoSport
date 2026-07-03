@@ -1,0 +1,15 @@
+<fonts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <!--<font id="FontOra" filename="digital7.fnt" filter="0123456789:"/> -->
+   <!-- <font id="FontOra" filename="team.fnt" filter="0123456789"/>-->
+    <font id="FontOra" filename="76-seg.fnt" filter="0123456789"/>
+    <font id="FontOra2" filename="14-dot.fnt" filter="0123456789 ADFGLMNOSVabcegilnoprtuv"/>
+    <font id="FontOra3" filename="16-dot.fnt" filter="abcdefghilmnopqrstuvzABCDEFGHILMNOPQRSTUVZ0123456789:. &#32;"/>
+    <font id="FontOra4" filename="14-dot-it.fnt" filter="abcdefghilmnopqrstuvzABCDEFGHILMNOPQRSTUVZ0123456789:. &#32;"/>
+    <font id="FontOra5" filename="12-dot-bold.fnt" filter="abcdefghilmnopqrstuvzABCDEFGHILMNOPQRSTUVZ0123456789:.% &#32;"/>
+
+    <!--<font id="FontOra" filename="segment62_32.fnt" filter="0123456789:$*"/>-->
+    
+
+</fonts>

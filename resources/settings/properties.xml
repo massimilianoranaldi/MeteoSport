@@ -1,0 +1,15 @@
+<properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="UseMilitaryFormat" type="boolean">false</property>
+
+
+    <!-- METEO SINISTRA valori default-->
+    <property id="SinistraRiga2" type="number">0</property>  
+    <property id="SinistraRiga3" type="number">2</property>  
+
+    <!-- INFO UTENTE DESTRA valori default-->
+    <property id="DestraRiga1" type="number">2</property>  
+    <property id="DestraRiga2" type="number">1</property>     
+    <property id="DestraRiga3" type="number">0</property>     
+</properties>
