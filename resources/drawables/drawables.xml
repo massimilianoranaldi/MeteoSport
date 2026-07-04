@@ -48,6 +48,7 @@
     <bitmap id="Gradini"          filename="stairs-svgrepo-com_blue.png"          dithering="none" />
     <bitmap id="Foot"          filename="footprint_blue.png"          dithering="none" />
     <bitmap id="Calorie"          filename="calorie_blue.png"          dithering="none" />
+    <bitmap id="BodyBattery"          filename="body_battery_blue.png"          dithering="none" />
     <bitmap id="MinAttivita"          filename="min_attivita_blue.png"          dithering="none" />
 
     <!--LOGO-->

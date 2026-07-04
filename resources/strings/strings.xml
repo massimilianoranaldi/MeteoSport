@@ -35,6 +35,7 @@
     <string id="SlotCalorie">Calorie</string>
     <string id="SlotPassi">Passi</string>
     <string id="SlotGradini">Gradini</string>
+    <string id="SlotBodyBattery">Body Battery</string>
 
     <!-- GOAL INFO UTENTE DESTRA -->
 <string id="GoalPassiTitle">Goal Passi</string>

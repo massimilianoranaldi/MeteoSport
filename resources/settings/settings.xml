@@ -47,17 +47,16 @@
             <listEntry value="0">@Strings.SlotCalorie</listEntry>
             <listEntry value="1">@Strings.SlotPassi</listEntry>
             <listEntry value="2">@Strings.SlotGradini</listEntry>
+            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
         </settingConfig>
     </setting>
-
-
-    
 
     <setting propertyKey="@Properties.DestraRiga2" title="@Strings.DestraRiga2Title">
         <settingConfig type="list">
             <listEntry value="0">@Strings.SlotCalorie</listEntry>
             <listEntry value="1">@Strings.SlotPassi</listEntry>
             <listEntry value="2">@Strings.SlotGradini</listEntry>
+            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
         </settingConfig>
     </setting>
 
@@ -66,6 +65,7 @@
             <listEntry value="0">@Strings.SlotCalorie</listEntry>
             <listEntry value="1">@Strings.SlotPassi</listEntry>
             <listEntry value="2">@Strings.SlotGradini</listEntry>
+            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
         </settingConfig>
     </setting>
 

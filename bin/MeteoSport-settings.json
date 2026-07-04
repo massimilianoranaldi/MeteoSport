@@ -127,6 +127,9 @@
     }, {
       "display" : "SlotGradini",
       "value" : 2
+    }, {
+      "display" : "SlotBodyBattery",
+      "value" : 3
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -151,6 +154,9 @@
     }, {
       "display" : "SlotGradini",
       "value" : 2
+    }, {
+      "display" : "SlotBodyBattery",
+      "value" : 3
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -175,6 +181,9 @@
     }, {
       "display" : "SlotGradini",
       "value" : 2
+    }, {
+      "display" : "SlotBodyBattery",
+      "value" : 3
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -228,30 +237,31 @@
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
-      "ColorLightGray" : "Light Gray",
       "SinistraRiga2Title" : "Sinistra Riga 2",
       "SlotProbPioggia" : "Prob. pioggia",
       "GoalPassiTitle" : "Goal Passi",
       "BackgroundColorTitle" : "Background Color",
+      "GoalCalorieTitle" : "Goal Calorie",
+      "DestraRiga2Title" : "Destra Riga 2",
+      "SlotCalorie" : "Calorie",
+      "AppName" : "MeteoSport",
+      "SlotPioggia" : "Pioggia",
+      "SlotCopertura" : "Copertura cielo",
+      "ColorWhite" : "White",
+      "DestraRiga3Title" : "Destra Riga 3",
+      "ColorLightGray" : "Light Gray",
       "ColorDarkGray" : "Dark Gray",
       "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
       "DestraRiga1Title" : "Destra Riga 1",
       "SlotGradini" : "Gradini",
       "ColorBlack" : "Black",
-      "GoalCalorieTitle" : "Goal Calorie",
-      "DestraRiga2Title" : "Destra Riga 2",
-      "SlotCalorie" : "Calorie",
-      "AppName" : "MeteoSport",
       "GoalGradiniTitle" : "Goal Gradini",
-      "SlotPioggia" : "Pioggia",
       "SlotPassi" : "Passi",
       "SlotUV" : "Indice UVx",
+      "SlotBodyBattery" : "Body Battery",
       "SinistraRiga3Title" : "Sinistra Riga 3",
-      "SlotCopertura" : "Copertura cielo",
       "SlotUmidita" : "Umidità",
-      "ColorWhite" : "White",
-      "SlotVento" : "Vento",
-      "DestraRiga3Title" : "Destra Riga 3"
+      "SlotVento" : "Vento"
     }
   }
 }

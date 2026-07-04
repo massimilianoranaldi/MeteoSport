@@ -76,7 +76,8 @@ class MeteoSportView extends WatchUi.WatchFace {
     var _iconGradini    as BitmapResource or Null = null;      // piani saliti
     var _iconFoot       as BitmapResource or Null = null;      // passi
     var _iconCalorie    as BitmapResource or Null = null;      // calorie
-    var _iconMinAttivita as BitmapResource or Null = null;     // minuti attività
+    var _iconMinAttivita as BitmapResource or Null = null;     // minuti attivita
+    var _iconBodyBattery as BitmapResource or Null = null;     // minuti attività
 
 
     // ── DATI METEO: alba / tramonto / città ─────────────────
@@ -160,6 +161,9 @@ class MeteoSportView extends WatchUi.WatchFace {
         if (_iconFoot        == null) { _iconFoot        = Application.loadResource(Rez.Drawables.Foot)        as BitmapResource; }
         if (_iconCalorie     == null) { _iconCalorie     = Application.loadResource(Rez.Drawables.Calorie)     as BitmapResource; }
         if (_iconMinAttivita == null) { _iconMinAttivita = Application.loadResource(Rez.Drawables.MinAttivita) as BitmapResource; }
+        if (_iconBodyBattery == null) { _iconBodyBattery = Application.loadResource(Rez.Drawables.BodyBattery) as BitmapResource; }
+
+        
 
         // attiva il layout XML (include il drawable Background che pulisce lo schermo)
         
@@ -822,11 +826,12 @@ class MeteoSportView extends WatchUi.WatchFace {
         if (perc < 0.0f) { perc = 0.0f; }
         var filledPunti = (perc * nPunti).toNumber();
         var stepDeg     = totalDeg.toFloat() / (nPunti - 1);
+        var offset  = stepDeg / 2.0f;//← mezzo passo di offset
 
         for (var i = 0; i < nPunti; i++) {
             var puntoDeg = cw
-                ? (starDeg - i * stepDeg).toNumber()
-                : (starDeg + i * stepDeg).toNumber();
+                ? (starDeg - offset-i * stepDeg).toNumber()
+                : (starDeg + offset+i * stepDeg).toNumber();
             var rad = Math.toRadians(puntoDeg);
             var px  = (cx + raggio * Math.cos(rad)).toNumber();
             var py  = (cy - raggio * Math.sin(rad)).toNumber();
@@ -943,8 +948,10 @@ class MeteoSportView extends WatchUi.WatchFace {
             var icon = contenuto["icon"] as BitmapResource?;
             var text = contenuto["text"] as Number?;
             var goal = contenuto["goal"] as Number?;
-
+            var rtl =false;
+            //var rtl = (slotType == 3) ? true : false; //indica se riempire da dx => sx true o sx =>dx false. Nel caso di body battery da dx =>sx decrementa barra
             System.println(getTimestamp() + "MeteoSport.drawRightColumn" + text + "scelta:"+slotType);
+
 
             if (icon == null || text == null) { return; }
 
@@ -963,12 +970,12 @@ class MeteoSportView extends WatchUi.WatchFace {
             drawSegmentoProgressTrattini(dc, positionIconX, positionIconY + 28, barLen, 3,
             text, goal,
             { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE,
-              "segmenti" => goal, "gap" => 1 }, false);
+              "segmenti" => goal, "gap" => 1 }, rtl);
               }
         else {
             drawSegmentoProgress(dc, positionIconX, positionIconY + 28, barLen, 3,
             text, goal,
-            { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE }, false);
+            { "sfondo" => Graphics.COLOR_DK_GRAY, "fill" => Graphics.COLOR_BLUE }, rtl);
         }
         
 
@@ -1139,12 +1146,14 @@ class MeteoSportView extends WatchUi.WatchFace {
     //  BACKEND SISTEMA
     // ============================================================
     function leggiProprietaSlot() as Void {
+        //sezione parametri
         _slotSx2 = Application.Properties.getValue("SinistraRiga2") as Number;
         _slotSx3 = Application.Properties.getValue("SinistraRiga3") as Number;
         _slotDx1 = Application.Properties.getValue("DestraRiga1")   as Number;
         _slotDx2 = Application.Properties.getValue("DestraRiga2")   as Number;
         _slotDx3 = Application.Properties.getValue("DestraRiga3")   as Number;
 
+        //sezione goal
         _goalPassi   = Application.Properties.getValue("GoalPassi")   as Number;
         _goalCalorie = Application.Properties.getValue("GoalCalorie") as Number;
         _goalGradini = Application.Properties.getValue("GoalGradini") as Number;        
@@ -1171,6 +1180,7 @@ class MeteoSportView extends WatchUi.WatchFace {
             case 0: return { "icon" => _iconCalorie, "text" => getCalories(),          "goal" => _goalCalorie };
             case 1: return { "icon" => _iconFoot, "text" => getSteps(),             "goal" => _goalPassi   };
             case 2: return { "icon" => _iconGradini,    "text" => getFloors()["climbed"], "goal" => _goalGradini };
+            case 3: return { "icon" => _iconBodyBattery,    "text" => getBodyBattery().format("%d"), "goal" => 100 };
             default: return { "icon" => null,        "text" => null,                   "goal" => null         };
         }
     }

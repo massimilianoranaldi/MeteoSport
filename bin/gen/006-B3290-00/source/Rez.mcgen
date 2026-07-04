@@ -39,6 +39,7 @@ module Rez {
         (:initialized) var Gradini as ResourceId;
         (:initialized) var Foot as ResourceId;
         (:initialized) var Calorie as ResourceId;
+        (:initialized) var BodyBattery as ResourceId;
         (:initialized) var MinAttivita as ResourceId;
         (:initialized) var Pep as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
@@ -63,30 +64,31 @@ module Rez {
     } // Layouts
 
     module Strings {
-        (:initialized) var ColorLightGray as ResourceId;
         (:initialized) var SinistraRiga2Title as ResourceId;
         (:initialized) var SlotProbPioggia as ResourceId;
         (:initialized) var GoalPassiTitle as ResourceId;
         (:initialized) var BackgroundColorTitle as ResourceId;
+        (:initialized) var GoalCalorieTitle as ResourceId;
+        (:initialized) var DestraRiga2Title as ResourceId;
+        (:initialized) var SlotCalorie as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var SlotPioggia as ResourceId;
+        (:initialized) var SlotCopertura as ResourceId;
+        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var DestraRiga3Title as ResourceId;
+        (:initialized) var ColorLightGray as ResourceId;
         (:initialized) var ColorDarkGray as ResourceId;
         (:initialized) var MilitaryFormatTitle as ResourceId;
         (:initialized) var DestraRiga1Title as ResourceId;
         (:initialized) var SlotGradini as ResourceId;
         (:initialized) var ColorBlack as ResourceId;
-        (:initialized) var GoalCalorieTitle as ResourceId;
-        (:initialized) var DestraRiga2Title as ResourceId;
-        (:initialized) var SlotCalorie as ResourceId;
-        (:initialized) var AppName as ResourceId;
         (:initialized) var GoalGradiniTitle as ResourceId;
-        (:initialized) var SlotPioggia as ResourceId;
         (:initialized) var SlotPassi as ResourceId;
         (:initialized) var SlotUV as ResourceId;
+        (:initialized) var SlotBodyBattery as ResourceId;
         (:initialized) var SinistraRiga3Title as ResourceId;
-        (:initialized) var SlotCopertura as ResourceId;
         (:initialized) var SlotUmidita as ResourceId;
-        (:initialized) var ColorWhite as ResourceId;
         (:initialized) var SlotVento as ResourceId;
-        (:initialized) var DestraRiga3Title as ResourceId;
     } // Strings
 
     module Styles {
