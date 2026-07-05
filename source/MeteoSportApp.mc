@@ -23,15 +23,12 @@ class MeteoSportApp extends Application.AppBase {
     }
 
     // New app settings have been received so trigger a UI update
-    function onSettingsChanged() as Void {
-
-        var view = WatchUi.getCurrentView()[0] as MeteoSportView;
-        view.leggiProprietaSlot();  // ← rilegge i nuovi valori
-        WatchUi.requestUpdate();    // ← ridisegna il quadrante
-
-
-        
-    }
+function onSettingsChanged() as Void {
+    var view = WatchUi.getCurrentView()[0] as MeteoSportView;
+    view.leggiProprietaSlot();  // rilegge tema e colori
+    view._reloadIcone();        // ricarica tutte le icone per posizione e colore
+    WatchUi.requestUpdate();
+}
 
         // ← Necessario per registrare il BackgroundService
     function getServiceDelegate() as [System.ServiceDelegate] {

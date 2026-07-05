@@ -42,10 +42,819 @@
     "configMax" : null,
     "configMaxLength" : null
   }, {
-    "key" : "SinistraRiga2",
+    "group" : {
+      "id" : "gruppoMeteo",
+      "title" : "sepSlot1Title",
+      "description" : null,
+      "enableWhenTrue" : null,
+      "entries" : [ {
+        "key" : "SinistraRiga2",
+        "valueType" : "number",
+        "defaultValue" : 0,
+        "configTitle" : "SinistraRiga2Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "SlotProbPioggia",
+          "value" : 0
+        }, {
+          "display" : "SlotPioggia",
+          "value" : 1
+        }, {
+          "display" : "SlotUmidita",
+          "value" : 2
+        }, {
+          "display" : "SlotVento",
+          "value" : 3
+        }, {
+          "display" : "SlotCopertura",
+          "value" : 4
+        }, {
+          "display" : "SlotUV",
+          "value" : 5
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "SinistraRiga3",
+        "valueType" : "number",
+        "defaultValue" : 2,
+        "configTitle" : "SinistraRiga3Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "SlotProbPioggia",
+          "value" : 0
+        }, {
+          "display" : "SlotPioggia",
+          "value" : 1
+        }, {
+          "display" : "SlotUmidita",
+          "value" : 2
+        }, {
+          "display" : "SlotVento",
+          "value" : 3
+        }, {
+          "display" : "SlotCopertura",
+          "value" : 4
+        }, {
+          "display" : "SlotUV",
+          "value" : 5
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      } ]
+    }
+  }, {
+    "group" : {
+      "id" : "gruppoStatistice",
+      "title" : "sepSlot2Title",
+      "description" : null,
+      "enableWhenTrue" : null,
+      "entries" : [ {
+        "key" : "DestraRiga1",
+        "valueType" : "number",
+        "defaultValue" : 2,
+        "configTitle" : "DestraRiga1Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "SlotCalorie",
+          "value" : 0
+        }, {
+          "display" : "SlotPassi",
+          "value" : 1
+        }, {
+          "display" : "SlotGradini",
+          "value" : 2
+        }, {
+          "display" : "SlotBodyBattery",
+          "value" : 3
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "DestraRiga2",
+        "valueType" : "number",
+        "defaultValue" : 1,
+        "configTitle" : "DestraRiga2Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "SlotCalorie",
+          "value" : 0
+        }, {
+          "display" : "SlotPassi",
+          "value" : 1
+        }, {
+          "display" : "SlotGradini",
+          "value" : 2
+        }, {
+          "display" : "SlotBodyBattery",
+          "value" : 3
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "DestraRiga3",
+        "valueType" : "number",
+        "defaultValue" : 0,
+        "configTitle" : "DestraRiga3Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "SlotCalorie",
+          "value" : 0
+        }, {
+          "display" : "SlotPassi",
+          "value" : 1
+        }, {
+          "display" : "SlotGradini",
+          "value" : 2
+        }, {
+          "display" : "SlotBodyBattery",
+          "value" : 3
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "GoalPassi",
+        "valueType" : "number",
+        "defaultValue" : 10000,
+        "configTitle" : "GoalPassiTitle",
+        "configPrompt" : null,
+        "configType" : "numeric",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : null,
+        "configMin" : 0,
+        "configMax" : 20000,
+        "configMaxLength" : null
+      }, {
+        "key" : "GoalCalorie",
+        "valueType" : "number",
+        "defaultValue" : 500,
+        "configTitle" : "GoalCalorieTitle",
+        "configPrompt" : null,
+        "configType" : "numeric",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : null,
+        "configMin" : 0,
+        "configMax" : 3000,
+        "configMaxLength" : null
+      }, {
+        "key" : "GoalGradini",
+        "valueType" : "number",
+        "defaultValue" : 10,
+        "configTitle" : "GoalGradiniTitle",
+        "configPrompt" : null,
+        "configType" : "numeric",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : null,
+        "configMin" : 0,
+        "configMax" : 100,
+        "configMaxLength" : null
+      } ]
+    }
+  }, {
+    "group" : {
+      "id" : "gruppoColori",
+      "title" : "sepSlot3Title",
+      "description" : null,
+      "enableWhenTrue" : null,
+      "entries" : [ {
+        "key" : "coloreOre",
+        "valueType" : "number",
+        "defaultValue" : 16733440,
+        "configTitle" : "coloreOreTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreMinuti",
+        "valueType" : "number",
+        "defaultValue" : 43775,
+        "configTitle" : "coloreMinutiTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreRettangolo",
+        "valueType" : "number",
+        "defaultValue" : 43775,
+        "configTitle" : "coloreRettangoloTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreSfondoBarreArchi",
+        "valueType" : "number",
+        "defaultValue" : 11184810,
+        "configTitle" : "coloreSfondoBarreArchiTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal8$",
+          "value" : 11184810
+        }, {
+          "display" : "$literal9$",
+          "value" : 5592405
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillBarra1",
+        "valueType" : "number",
+        "defaultValue" : 43775,
+        "configTitle" : "coloreFillBarra1Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillBarra2",
+        "valueType" : "number",
+        "defaultValue" : 43775,
+        "configTitle" : "coloreFillBarra2Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillBarra3",
+        "valueType" : "number",
+        "defaultValue" : 43775,
+        "configTitle" : "coloreFillBarra3Title",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillAlbaArcoSx",
+        "valueType" : "number",
+        "defaultValue" : 16776960,
+        "configTitle" : "coloreFillAlbaArcoSxTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillTramontoArcoSx",
+        "valueType" : "number",
+        "defaultValue" : 16733440,
+        "configTitle" : "coloreFillTramontoArcoSxTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFillArcoDx",
+        "valueType" : "number",
+        "defaultValue" : 43520,
+        "configTitle" : "coloreFillArcoDxTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      } ]
+    }
+  }, {
+    "group" : {
+      "id" : "gruppoColoriFont",
+      "title" : "sepSlot4Title",
+      "description" : null,
+      "enableWhenTrue" : null,
+      "entries" : [ {
+        "key" : "coloreFontParametri",
+        "valueType" : "number",
+        "defaultValue" : 16777215,
+        "configTitle" : "coloreFontParametriTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        }, {
+          "display" : "$literal10$",
+          "value" : 0
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFontOraMeteo",
+        "valueType" : "number",
+        "defaultValue" : 11184810,
+        "configTitle" : "coloreFontOraMeteoTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        }, {
+          "display" : "$literal10$",
+          "value" : 0
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFontCitta",
+        "valueType" : "number",
+        "defaultValue" : 16777215,
+        "configTitle" : "coloreFontCittaTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        }, {
+          "display" : "$literal10$",
+          "value" : 0
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFontGiorno",
+        "valueType" : "number",
+        "defaultValue" : 16777215,
+        "configTitle" : "coloreFontGiornoTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        }, {
+          "display" : "$literal10$",
+          "value" : 0
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "coloreFontCalendario",
+        "valueType" : "number",
+        "defaultValue" : 11184810,
+        "configTitle" : "coloreFontCalendarioTitle",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "$literal0$",
+          "value" : 16776960
+        }, {
+          "display" : "$literal1$",
+          "value" : 43775
+        }, {
+          "display" : "$literal2$",
+          "value" : 5635840
+        }, {
+          "display" : "$literal3$",
+          "value" : 16733440
+        }, {
+          "display" : "$literal4$",
+          "value" : 16711680
+        }, {
+          "display" : "$literal5$",
+          "value" : 43520
+        }, {
+          "display" : "$literal6$",
+          "value" : 16777215
+        }, {
+          "display" : "$literal7$",
+          "value" : 16733610
+        }, {
+          "display" : "$literal10$",
+          "value" : 0
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      } ]
+    }
+  }, {
+    "key" : "temaIcone",
     "valueType" : "number",
     "defaultValue" : 0,
-    "configTitle" : "SinistraRiga2Title",
+    "configTitle" : "temaIconeTitle",
     "configPrompt" : null,
     "configType" : "list",
     "configError" : null,
@@ -53,92 +862,29 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
-      "display" : "SlotProbPioggia",
+      "display" : "$literal11$",
       "value" : 0
     }, {
-      "display" : "SlotPioggia",
+      "display" : "$literal12$",
       "value" : 1
     }, {
-      "display" : "SlotUmidita",
+      "display" : "$literal13$",
       "value" : 2
     }, {
-      "display" : "SlotVento",
+      "display" : "$literal14$",
       "value" : 3
     }, {
-      "display" : "SlotCopertura",
+      "display" : "$literal15$",
       "value" : 4
-    }, {
-      "display" : "SlotUV",
-      "value" : 5
     } ],
     "configMin" : null,
     "configMax" : null,
     "configMaxLength" : null
   }, {
-    "key" : "SinistraRiga3",
-    "valueType" : "number",
-    "defaultValue" : 2,
-    "configTitle" : "SinistraRiga3Title",
-    "configPrompt" : null,
-    "configType" : "list",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : [ {
-      "display" : "SlotProbPioggia",
-      "value" : 0
-    }, {
-      "display" : "SlotPioggia",
-      "value" : 1
-    }, {
-      "display" : "SlotUmidita",
-      "value" : 2
-    }, {
-      "display" : "SlotVento",
-      "value" : 3
-    }, {
-      "display" : "SlotCopertura",
-      "value" : 4
-    }, {
-      "display" : "SlotUV",
-      "value" : 5
-    } ],
-    "configMin" : null,
-    "configMax" : null,
-    "configMaxLength" : null
-  }, {
-    "key" : "DestraRiga1",
-    "valueType" : "number",
-    "defaultValue" : 2,
-    "configTitle" : "DestraRiga1Title",
-    "configPrompt" : null,
-    "configType" : "list",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : [ {
-      "display" : "SlotCalorie",
-      "value" : 0
-    }, {
-      "display" : "SlotPassi",
-      "value" : 1
-    }, {
-      "display" : "SlotGradini",
-      "value" : 2
-    }, {
-      "display" : "SlotBodyBattery",
-      "value" : 3
-    } ],
-    "configMin" : null,
-    "configMax" : null,
-    "configMaxLength" : null
-  }, {
-    "key" : "DestraRiga2",
+    "key" : "tipoIconaMeteo",
     "valueType" : "number",
     "defaultValue" : 1,
-    "configTitle" : "DestraRiga2Title",
+    "configTitle" : "tipoIconaMeteoTitle",
     "configPrompt" : null,
     "configType" : "list",
     "configError" : null,
@@ -146,122 +892,83 @@
     "configReadonly" : false,
     "configRequired" : false,
     "configOptions" : [ {
-      "display" : "SlotCalorie",
-      "value" : 0
-    }, {
-      "display" : "SlotPassi",
+      "display" : "$literal16$",
       "value" : 1
     }, {
-      "display" : "SlotGradini",
-      "value" : 2
-    }, {
-      "display" : "SlotBodyBattery",
-      "value" : 3
+      "display" : "$literal17$",
+      "value" : 0
     } ],
     "configMin" : null,
     "configMax" : null,
-    "configMaxLength" : null
-  }, {
-    "key" : "DestraRiga3",
-    "valueType" : "number",
-    "defaultValue" : 0,
-    "configTitle" : "DestraRiga3Title",
-    "configPrompt" : null,
-    "configType" : "list",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : [ {
-      "display" : "SlotCalorie",
-      "value" : 0
-    }, {
-      "display" : "SlotPassi",
-      "value" : 1
-    }, {
-      "display" : "SlotGradini",
-      "value" : 2
-    }, {
-      "display" : "SlotBodyBattery",
-      "value" : 3
-    } ],
-    "configMin" : null,
-    "configMax" : null,
-    "configMaxLength" : null
-  }, {
-    "key" : "GoalPassi",
-    "valueType" : "number",
-    "defaultValue" : 10000,
-    "configTitle" : "GoalPassiTitle",
-    "configPrompt" : null,
-    "configType" : "numeric",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : null,
-    "configMin" : 0,
-    "configMax" : 20000,
-    "configMaxLength" : null
-  }, {
-    "key" : "GoalCalorie",
-    "valueType" : "number",
-    "defaultValue" : 500,
-    "configTitle" : "GoalCalorieTitle",
-    "configPrompt" : null,
-    "configType" : "numeric",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : null,
-    "configMin" : 0,
-    "configMax" : 3000,
-    "configMaxLength" : null
-  }, {
-    "key" : "GoalGradini",
-    "valueType" : "number",
-    "defaultValue" : 10,
-    "configTitle" : "GoalGradiniTitle",
-    "configPrompt" : null,
-    "configType" : "numeric",
-    "configError" : null,
-    "configHelpUrl" : null,
-    "configReadonly" : false,
-    "configRequired" : false,
-    "configOptions" : null,
-    "configMin" : 0,
-    "configMax" : 100,
     "configMaxLength" : null
   } ],
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
-      "SinistraRiga2Title" : "Sinistra Riga 2",
       "SlotProbPioggia" : "Prob. pioggia",
+      "coloreRettangoloTitle" : "Colore Rettangolo",
+      "sepSlot2Title" : "── SLOT STAT UTENTE ──────",
+      "GoalCalorieTitle" : "Goal Calorie",
+      "coloreOreTitle" : "Colore Ore",
+      "DestraRiga2Title" : "Destra Riga 2",
+      "coloreFontCalendarioTitle" : "Colore Font Calendario",
+      "$literal0$" : "Giallo",
+      "$literal16$" : "Colorata (default)",
+      "$literal4$" : "Rosso",
+      "coloreFontCittaTitle" : "Colore Font Citta",
+      "$literal8$" : "Grigio chiaro",
+      "ColorWhite" : "White",
+      "sepSlot3Title" : "── SLOT COLORI ──────",
+      "$literal12$" : "Summer",
+      "DestraRiga3Title" : "Destra Riga 3",
+      "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
+      "tipoIconaMeteoTitle" : "TIPO ICONA METEO",
+      "GoalGradiniTitle" : "Goal Gradini",
+      "$literal15$" : "Forest",
+      "coloreFillArcoDxTitle" : "Colore Arco Attività",
+      "sepSlot1Title" : "── SLOT METEO ──────",
+      "sepSlot4Title" : "── SLOT COLORI FONT──────",
+      "$literal3$" : "Arancione",
+      "coloreFillAlbaArcoSxTitle" : "Colore Arco Alba",
+      "$literal7$" : "Rosa",
+      "coloreFillTramontoArcoSxTitle" : "Colore Arco Tramonto",
+      "coloreFontOraMeteoTitle" : "Colore Font Ora Meteo",
+      "SlotUmidita" : "Umidità",
+      "SlotVento" : "Vento",
+      "coloreFillBarra2Title" : "Colore Barra Riga 2",
+      "$literal11$" : "Default",
+      "SinistraRiga2Title" : "Sinistra Riga 2",
       "GoalPassiTitle" : "Goal Passi",
       "BackgroundColorTitle" : "Background Color",
-      "GoalCalorieTitle" : "Goal Calorie",
-      "DestraRiga2Title" : "Destra Riga 2",
+      "coloreFontParametriTitle" : "Colore Font Parametri Meteo e Attivita",
       "SlotCalorie" : "Calorie",
       "AppName" : "MeteoSport",
+      "temaIconeTitle" : "TEMI QUADRANTE",
+      "coloreFillBarra3Title" : "Colore Barra Riga 3",
       "SlotPioggia" : "Pioggia",
+      "$literal2$" : "Lime",
+      "$literal14$" : "Pink",
+      "coloreSfondoBarreArchiTitle" : "Sfondo Barre e Archi",
+      "$literal6$" : "Bianco",
       "SlotCopertura" : "Copertura cielo",
-      "ColorWhite" : "White",
-      "DestraRiga3Title" : "Destra Riga 3",
+      "$literal10$" : "Nero",
       "ColorLightGray" : "Light Gray",
+      "coloreFontGiornoTitle" : "Colore Font Giorno",
       "ColorDarkGray" : "Dark Gray",
-      "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
       "DestraRiga1Title" : "Destra Riga 1",
       "SlotGradini" : "Gradini",
       "ColorBlack" : "Black",
-      "GoalGradiniTitle" : "Goal Gradini",
+      "coloreFillBarra1Title" : "Colore Barra Riga 1",
+      "$literal1$" : "Ciano",
+      "$literal13$" : "Marine",
       "SlotPassi" : "Passi",
+      "$literal5$" : "Verde",
+      "$literal17$" : "Monocromatica",
       "SlotUV" : "Indice UVx",
       "SlotBodyBattery" : "Body Battery",
+      "$literal9$" : "Grigio scuro",
       "SinistraRiga3Title" : "Sinistra Riga 3",
-      "SlotUmidita" : "Umidità",
-      "SlotVento" : "Vento"
+      "coloreMinutiTitle" : "Colore Minuti"
     }
   }
 }

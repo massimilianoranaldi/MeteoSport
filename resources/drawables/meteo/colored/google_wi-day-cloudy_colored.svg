@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="google_wi-day-cloudy_colored.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="26.59375"
+     inkscape:cx="16.018801"
+     inkscape:cy="16"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="a"
+       x1="0%"
+       x2="67.859%"
+       y1="0%"
+       y2="76.031%">
+      <stop
+         offset="0%"
+         stop-color="#FCD35C"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#FBBC04"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="b"
+       x1="22.493%"
+       x2="100%"
+       y1="17.395%"
+       y2="115.202%">
+      <stop
+         offset="0%"
+         stop-color="#F1F3F4"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#DEDFDF"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="c"
+       x1="83.458%"
+       x2="-15.637%"
+       y1="100%"
+       y2="-29.648%">
+      <stop
+         offset="0%"
+         stop-color="#E4E5E5"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#FCD35C"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g9">
+    <g
+       transform="translate(4)"
+       id="g7">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="#FBBC04"
+         id="circle6" />
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="url(#a)"
+         id="circle7" />
+    </g>
+    <circle
+       cx="19"
+       cy="23"
+       r="9"
+       fill="url(#b)"
+       id="circle8" />
+    <path
+       fill="url(#c)"
+       d="M10.02 22.406a9 9 0 0 1 16.416-4.478A11.996 11.996 0 0 1 16 24c-2.178 0-4.22-.58-5.98-1.594Z"
+       id="path8" />
+    <path
+       fill="#F1F3F4"
+       d="M19 32a7.5 7.5 0 0 0-15 0c.011-.017 15.004-.012 15 0Z"
+       id="path9" />
+  </g>
+</svg>

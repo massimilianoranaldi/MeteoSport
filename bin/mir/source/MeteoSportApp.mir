@@ -45,65 +45,71 @@ C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_21_68_23_4_start:
         ret %tmp.7;
 C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_21_68_23_4_stop:
     }
-    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 26; @symbol_functiondef = [onSettingsChanged,26,13,30]; ]
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 26; @symbol_functiondef = [onSettingsChanged,26,9,26]; ]
     function onSettingsChanged() as Void {
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_41_34_4_start:
-[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 28 8 ]
-        [ "C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_41_34_4_start" "C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_41_34_4_stop" ]
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_37_31_0_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 27 4 ]
+        [ "C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_37_31_0_start" "C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_37_31_0_stop" ]
         %view.1 = local;
-        symbol [ view %view.1 28 12 16 ];
-        symbol [ WatchUi %tmp.1 28 19 26 ];
+        symbol [ view %view.1 27 8 12 ];
+        symbol [ WatchUi %tmp.1 27 15 22 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ getCurrentView %tmp.2 28 27 41 ];
+        symbol [ getCurrentView %tmp.2 27 23 37 ];
         %tmp.2 = getv function %tmp.1 :getCurrentView;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 0;
         %tmp.5 = agetv %tmp.3 %tmp.4;
         %tmp.6 = as %tmp.5 MeteoSportView;
-        symbol [ MeteoSportView %tmp.6 28 50 64 ];
+        symbol [ MeteoSportView %tmp.6 27 46 60 ];
         lputv %view.1 %tmp.6;
-        symbol [ view %view.1 28 12 16 ];
-[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 29 8 ]
+        symbol [ view %view.1 27 8 12 ];
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 28 4 ]
         %tmp.7 = lgetv %view.1;
-        symbol [ view %tmp.7 29 8 12 ];
-        symbol [ leggiProprietaSlot %tmp.8 29 13 31 ];
+        symbol [ view %tmp.7 28 4 8 ];
+        symbol [ leggiProprietaSlot %tmp.8 28 9 27 ];
         %tmp.8 = getv function %tmp.7 :leggiProprietaSlot;
         invoke %tmp.7 %tmp.8();
-[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 30 8 ]
-        symbol [ WatchUi %tmp.9 30 8 15 ];
-        %tmp.9 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.10 30 16 29 ];
-        %tmp.10 = getv function %tmp.9 :requestUpdate;
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 29 4 ]
+        %tmp.9 = lgetv %view.1;
+        symbol [ view %tmp.9 29 4 8 ];
+        symbol [ _reloadIcone %tmp.10 29 9 21 ];
+        %tmp.10 = getv function %tmp.9 :_reloadIcone;
         invoke %tmp.9 %tmp.10();
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_41_34_4_stop:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 30 4 ]
+        symbol [ WatchUi %tmp.11 30 4 11 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.12 30 12 25 ];
+        %tmp.12 = getv function %tmp.11 :requestUpdate;
+        invoke %tmp.11 %tmp.12();
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_26_37_31_0_stop:
     }
-    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 37; @symbol_functiondef = [getServiceDelegate,37,13,31]; @symbol_return<0> = [System,37,38,44]; @symbol_return<1> = [ServiceDelegate,37,45,60]; ]
+    [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 34; @symbol_functiondef = [getServiceDelegate,34,13,31]; @symbol_return<0> = [System,34,38,44]; @symbol_return<1> = [ServiceDelegate,34,45,60]; ]
     function getServiceDelegate() as [System.ServiceDelegate] {
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_37_62_39_4_start:
-[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 38 8 ]
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_34_62_36_4_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 35 8 ]
         %tmp.1 = newa 1;
-        symbol [ BackgroundService %tmp.5 38 20 37 ];
+        symbol [ BackgroundService %tmp.5 35 20 37 ];
         %tmp.5 = getv ? :BackgroundService;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_37_62_39_4_stop:
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_34_62_36_4_stop:
     }
 }
-[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 43; @symbol_functiondef = [getApp,43,9,15]; @symbol_return<0> = [MeteoSportApp,43,21,34]; ]
+[ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 40; @symbol_functiondef = [getApp,40,9,15]; @symbol_return<0> = [MeteoSportApp,40,21,34]; ]
 function getApp() as MeteoSportApp {
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_43_35_45_0_start:
-[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 44 4 ]
-    symbol [ Application %tmp.1 44 11 22 ];
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_40_35_42_0_start:
+[ "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc" 41 4 ]
+    symbol [ Application %tmp.1 41 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 44 23 29 ];
+    symbol [ getApp %tmp.2 41 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 MeteoSportApp;
-    symbol [ MeteoSportApp %tmp.4 44 35 48 ];
+    symbol [ MeteoSportApp %tmp.4 41 35 48 ];
     ret %tmp.4;
-C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_43_35_45_0_stop:
+C__GarminProject_MeteoSport_MeteoSport_source_MeteoSportApp_mc_40_35_42_0_stop:
 }
 [ @file = "C:\GarminProject\MeteoSport\MeteoSport\source\MeteoSportApp.mc"; @line = 1; ]
 <init> {

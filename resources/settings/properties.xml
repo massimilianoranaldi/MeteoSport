@@ -14,7 +14,91 @@
     <property id="DestraRiga3" type="number">0</property>  <!--calorie-->   
 
     <!-- GOAL INFO UTENTE DESTRA valori default -->
-<property id="GoalPassi"   type="number">10000</property>
-<property id="GoalCalorie" type="number">500</property>
-<property id="GoalGradini" type="number">10</property>
+    <property id="GoalPassi"   type="number">10000</property>
+    <property id="GoalCalorie" type="number">500</property>
+    <property id="GoalGradini" type="number">10</property>
+
+
+
+<!--
+    const CIANO    = 0xaaffff;
+    const VERDE    = 0x00AA00;
+    const LIME     = 0x55FF00;
+    const GIALLO   = 0xFFFF00;
+    const ARANCIONE = 0xFF5500;
+    const ROSSO    = 0xFF0000;
+    const BIANCO   = 0xFFFFFF;
+
+    // ── SFONDI (archi e barre) ───────────────────────────────
+    const GRIGIO_CHIARO = 0xAAAAAA;
+    const GRIGIO_SCURO  = 0x555555;
+-->
+
+
+    <!-- COLORE ORA -->
+    <property id="coloreOre" type="number">0xFF5500</property>
+
+    <!-- COLORE MINUTI -->
+    <property id="coloreMinuti" type="number">0x00AAFF</property>
+    
+    <!-- COLORE RETTANGOLO -->
+    <property id="coloreRettangolo" type="number">0x00AAFF</property>
+    
+    <!-- COLORE SFONDI BARRE E ARCHI -->
+    <property id="coloreSfondoBarreArchi" type="number">0xAAAAAA</property>
+
+    <!-- COLORE RIEMPIMENTO BARRA RIGA 1 DESTRA -->
+    <property id="coloreFillBarra1" type="number">0x00AAFF</property>
+
+    <!-- COLORE RIEMPIMENTO BARRA RIGA 2 DESTRA -->
+    <property id="coloreFillBarra2" type="number">0x00AAFF</property>
+
+    <!-- COLORE RIEMPIMENTO BARRA RIGA 3 DESTRA -->
+    <property id="coloreFillBarra3" type="number">0x00AAFF</property>
+
+    <!-- COLORE RIEMPIMENTO ARCO SINISTRA ALBA  -->
+    <property id="coloreFillAlbaArcoSx" type="number">0xFFFF00</property>
+
+    <!-- COLORE RIEMPIMENTO ARCO SINISTRA TRAMONTO  -->
+    <property id="coloreFillTramontoArcoSx" type="number">0xFF5500</property>
+
+    <!-- COLORE RIEMPIMENTO ARCO DESTRA  -->
+    <property id="coloreFillArcoDx" type="number">0x00AA00</property>
+
+
+
+
+    <!-- COLORE FONT PARAMETRI  -->
+    <property id="coloreFontParametri" type="number">0xFFFFFF</property>
+
+    <!-- COLORE ORA METEO  -->
+    <property id="coloreFontOraMeteo" type="number">0xAAAAAA</property>    
+
+    <!-- COLORE CITTA  -->
+    <property id="coloreFontCitta" type="number">0xFFFFFF</property>    
+
+    <!-- COLORE GIORNO  -->
+    <property id="coloreFontGiorno" type="number">0xFFFFFF</property>  
+
+    <!-- COLORE CALENDARIO  -->
+    <property id="coloreFontCalendario" type="number">0xAAAAAA</property>  
+
+
+
+
+    <!-- SEPARATORE -->
+    <property id="sepSlot1"   type="string"></property>
+
+    <property id="sepSlot2"   type="string"></property>
+
+    <property id="sepSlot3"   type="string"></property>
+
+
+
+    <!--TEMA-->
+    <property id="temaIcone" type="number">0</property>
+
+    <!--ICONA METEO-->
+    <property id="tipoIconaMeteo" type="number">1</property>
+
 </properties>

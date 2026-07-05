@@ -38,7 +38,44 @@
     <string id="SlotBodyBattery">Body Battery</string>
 
     <!-- GOAL INFO UTENTE DESTRA -->
-<string id="GoalPassiTitle">Goal Passi</string>
-<string id="GoalCalorieTitle">Goal Calorie</string>
-<string id="GoalGradiniTitle">Goal Gradini</string>
+    <string id="GoalPassiTitle">Goal Passi</string>
+    <string id="GoalCalorieTitle">Goal Calorie</string>
+    <string id="GoalGradiniTitle">Goal Gradini</string>
+
+
+
+
+    <!-- COLORI TEMA -->
+    <string id="coloreOreTitle">Colore Ore</string>
+    <string id="coloreMinutiTitle">Colore Minuti</string>
+    <string id="coloreRettangoloTitle">Colore Rettangolo</string>
+    <string id="coloreSfondoBarreArchiTitle">Sfondo Barre e Archi</string>
+    <string id="coloreFillBarra1Title">Colore Barra Riga 1</string>
+    <string id="coloreFillBarra2Title">Colore Barra Riga 2</string>
+    <string id="coloreFillBarra3Title">Colore Barra Riga 3</string>
+    <string id="coloreFillAlbaArcoSxTitle">Colore Arco Alba</string>
+    <string id="coloreFillTramontoArcoSxTitle">Colore Arco Tramonto</string>
+    <string id="coloreFillArcoDxTitle">Colore Arco Attività</string>
+    
+    <string id="coloreFontParametriTitle">Colore Font Parametri Meteo e Attivita</string>
+    <string id="coloreFontOraMeteoTitle">Colore Font Ora Meteo</string>
+    <string id="coloreFontCittaTitle">Colore Font Citta</string>
+    <string id="coloreFontGiornoTitle">Colore Font Giorno</string>
+    <string id="coloreFontCalendarioTitle">Colore Font Calendario</string>
+
+
+    <string id="sepSlot1Title">── SLOT METEO ──────</string>
+
+    <string id="sepSlot2Title">── SLOT STAT UTENTE ──────</string>
+
+    <string id="sepSlot3Title">── SLOT COLORI ──────</string>
+
+    <string id="sepSlot4Title">── SLOT COLORI FONT──────</string>
+
+    <string id="temaIconeTitle">TEMI QUADRANTE</string>
+
+    <string id="tipoIconaMeteoTitle">TIPO ICONA METEO</string>
 </strings>
+
+
+

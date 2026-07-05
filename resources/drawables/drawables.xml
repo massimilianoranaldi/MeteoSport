@@ -1,57 +1,204 @@
 <drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="LauncherIcon" filename="launcher_icon.png" dithering="none" />
-    
+
+<!--METEO COLORATO GOOGLE-->
+<bitmap id="wiDaySunnyColored"         filename="meteo/colored/google_wi-day-sunny_colored_new.png"          dithering="none" />
+<bitmap id="wiDaySunnyOvercastColored" filename="meteo/colored/google_wi-day-sunny-overcast_colored_new.png"  dithering="none" />
+<bitmap id="wiDayCloudyColored"        filename="meteo/colored/google_wi-day-cloudy_colored_new.png"          dithering="none" />
+<bitmap id="wiCloudyColored"           filename="meteo/colored/google_wi-cloudy_colored.png"              dithering="none" />
+<bitmap id="wiDayFogColored"           filename="meteo/colored/google_wi-day-fog_colored.png"             dithering="none" />
+<bitmap id="wiDayHazeColored"          filename="meteo/colored/google_wi-day-haze_colored.png"            dithering="none" />
+<bitmap id="wiDaySprinkleColored"      filename="meteo/colored/google_wi-day-sprinkle_colored.png"        dithering="none" />
+<bitmap id="wiSprinkleColored"         filename="meteo/colored/google_wi-sprinkle_colored.png"            dithering="none" />
+<bitmap id="wiDayRainColored"          filename="meteo/colored/google_wi-day-rain_colored.png"            dithering="none" />
+<bitmap id="wiRainColored"             filename="meteo/colored/google_wi-rain_colored.png"                dithering="none" />
+<bitmap id="wiRainMixColored"          filename="meteo/colored/google_wi-rain-mix_colored.png"            dithering="none" />
+<bitmap id="wiRainWindColored"         filename="meteo/colored/google_wi-rain-wind_colored.png"           dithering="none" />
+<bitmap id="wiDayShowersColored"       filename="meteo/colored/google_wi-day-showers_colored.png"         dithering="none" />
+<bitmap id="wiShowersColored"          filename="meteo/colored/google_wi-showers_colored.png"             dithering="none" />
+<bitmap id="wiDaySnowColored"          filename="meteo/colored/google_wi-day-snow_colored.png"            dithering="none" />
+<bitmap id="wiSnowColored"             filename="meteo/colored/google_wi-snow_colored.png"                dithering="none" />
+<bitmap id="wiSnowWindColored"         filename="meteo/colored/google_wi-snow-wind_colored.png"           dithering="none" />
+<bitmap id="wiStormShowersColored"     filename="meteo/colored/google_wi-storm-showers_colored.png"       dithering="none" />
+<bitmap id="wiThunderstormColored"     filename="meteo/colored/google_wi-thunderstorm_colored.png"        dithering="none" />
+
+
     <!--METEO-->
-    <bitmap id="wiNa"               filename="meteo/wi-na_blue.png"                dithering="none" />
-    <bitmap id="wiRain"             filename="meteo/wi-rain_blue.png"              dithering="none" />
-    <bitmap id="wiCloudy"           filename="meteo/wi-cloudy_blue.png"            dithering="none" />
-    <bitmap id="wiDayCloudy"        filename="meteo/wi-day-cloudy_blue.png"        dithering="none" />
-    <bitmap id="wiDayRain"          filename="meteo/wi-day-rain_blue.png"          dithering="none" />
-    <bitmap id="wiDayShowers"       filename="meteo/wi-day-showers_blue.png"       dithering="none" />
-    <bitmap id="wiDaySnow"          filename="meteo/wi-day-snow_blue.png"          dithering="none" />
-    <bitmap id="wiDaySprinkle"      filename="meteo/wi-day-sprinkle_blue.png"      dithering="none" />
-    <bitmap id="wiDaySunny"         filename="meteo/wi-day-sunny_blue.png"         dithering="none" />
-    <bitmap id="wiDaySunnyOvercast" filename="meteo/wi-day-sunny-overcast_blue.png" dithering="none" />
-    <bitmap id="wiRainMix"          filename="meteo/wi-rain-mix_blue.png"          dithering="none" />
-    <bitmap id="wiRainWind"         filename="meteo/wi-rain-wind_blue.png"         dithering="none" />
-    <bitmap id="wiShowers"          filename="meteo/wi-showers_blue.png"           dithering="none" />
-    <bitmap id="wiSnow"             filename="meteo/wi-snow_blue.png"              dithering="none" />
-    <bitmap id="wiSnowWind"         filename="meteo/wi-snow-wind_blue.png"         dithering="none" />
-    <bitmap id="wiSprinkle"         filename="meteo/wi-sprinkle_blue.png"          dithering="none" />
-    <bitmap id="wiStormShowers"     filename="meteo/wi-storm-showers_blue.png"     dithering="none" />
-    <bitmap id="wiThunderstorm"     filename="meteo/wi-thunderstorm_blue.png"      dithering="none" />
-    <bitmap id="wiDayFog"           filename="meteo/wi-day-fog_blue.png"           dithering="none" />
-    <bitmap id="wiDayHaze"          filename="meteo/wi-day-haze_blue.png"          dithering="none" />
+    <bitmap id="wiNaGiallo" filename="meteo/wi-na_giallo.png" dithering="none" />
+    <bitmap id="wiNaLime" filename="meteo/wi-na_lime.png" dithering="none" />
+    <bitmap id="wiNaRosa" filename="meteo/wi-na_rosa.png" dithering="none" />
+    <bitmap id="wiNaBianco" filename="meteo/wi-na_bianco.png" dithering="none" />
+    <bitmap id="wiNaCiano" filename="meteo/wi-na_blue.png" dithering="none" />
+    <bitmap id="wiRainGiallo" filename="meteo/wi-rain_giallo.png" dithering="none" />
+    <bitmap id="wiRainLime" filename="meteo/wi-rain_lime.png" dithering="none" />
+    <bitmap id="wiRainRosa" filename="meteo/wi-rain_rosa.png" dithering="none" />
+    <bitmap id="wiRainBianco" filename="meteo/wi-rain_bianco.png" dithering="none" />
+    <bitmap id="wiRainCiano" filename="meteo/wi-rain_blue.png" dithering="none" />
+    <bitmap id="wiCloudyGiallo" filename="meteo/wi-cloudy_giallo.png" dithering="none" />
+    <bitmap id="wiCloudyLime" filename="meteo/wi-cloudy_lime.png" dithering="none" />
+    <bitmap id="wiCloudyRosa" filename="meteo/wi-cloudy_rosa.png" dithering="none" />
+    <bitmap id="wiCloudyBianco" filename="meteo/wi-cloudy_bianco.png" dithering="none" />
+    <bitmap id="wiCloudyCiano" filename="meteo/wi-cloudy_blue.png" dithering="none" />
+    <bitmap id="wiDayCloudyGiallo" filename="meteo/wi-day-cloudy_giallo.png" dithering="none" />
+    <bitmap id="wiDayCloudyLime" filename="meteo/wi-day-cloudy_lime.png" dithering="none" />
+    <bitmap id="wiDayCloudyRosa" filename="meteo/wi-day-cloudy_rosa.png" dithering="none" />
+    <bitmap id="wiDayCloudyBianco" filename="meteo/wi-day-cloudy_bianco.png" dithering="none" />
+    <bitmap id="wiDayCloudyCiano" filename="meteo/wi-day-cloudy_blue.png" dithering="none" />
+    <bitmap id="wiDayRainGiallo" filename="meteo/wi-day-rain_giallo.png" dithering="none" />
+    <bitmap id="wiDayRainLime" filename="meteo/wi-day-rain_lime.png" dithering="none" />
+    <bitmap id="wiDayRainRosa" filename="meteo/wi-day-rain_rosa.png" dithering="none" />
+    <bitmap id="wiDayRainBianco" filename="meteo/wi-day-rain_bianco.png" dithering="none" />
+    <bitmap id="wiDayRainCiano" filename="meteo/wi-day-rain_blue.png" dithering="none" />
+    <bitmap id="wiDayShowersGiallo" filename="meteo/wi-day-showers_giallo.png" dithering="none" />
+    <bitmap id="wiDayShowersLime" filename="meteo/wi-day-showers_lime.png" dithering="none" />
+    <bitmap id="wiDayShowersRosa" filename="meteo/wi-day-showers_rosa.png" dithering="none" />
+    <bitmap id="wiDayShowersBianco" filename="meteo/wi-day-showers_bianco.png" dithering="none" />
+    <bitmap id="wiDayShowersCiano" filename="meteo/wi-day-showers_blue.png" dithering="none" />
+    <bitmap id="wiDaySnowGiallo" filename="meteo/wi-day-snow_giallo.png" dithering="none" />
+    <bitmap id="wiDaySnowLime" filename="meteo/wi-day-snow_lime.png" dithering="none" />
+    <bitmap id="wiDaySnowRosa" filename="meteo/wi-day-snow_rosa.png" dithering="none" />
+    <bitmap id="wiDaySnowBianco" filename="meteo/wi-day-snow_bianco.png" dithering="none" />
+    <bitmap id="wiDaySnowCiano" filename="meteo/wi-day-snow_blue.png" dithering="none" />
+    <bitmap id="wiDaySprinkleGiallo" filename="meteo/wi-day-sprinkle_giallo.png" dithering="none" />
+    <bitmap id="wiDaySprinkleLime" filename="meteo/wi-day-sprinkle_lime.png" dithering="none" />
+    <bitmap id="wiDaySprinkleRosa" filename="meteo/wi-day-sprinkle_rosa.png" dithering="none" />
+    <bitmap id="wiDaySprinkleBianco" filename="meteo/wi-day-sprinkle_bianco.png" dithering="none" />
+    <bitmap id="wiDaySprinkleCiano" filename="meteo/wi-day-sprinkle_blue.png" dithering="none" />
+    <bitmap id="wiDaySunnyGiallo" filename="meteo/wi-day-sunny_giallo.png" dithering="none" />
+    <bitmap id="wiDaySunnyLime" filename="meteo/wi-day-sunny_lime.png" dithering="none" />
+    <bitmap id="wiDaySunnyRosa" filename="meteo/wi-day-sunny_rosa.png" dithering="none" />
+    <bitmap id="wiDaySunnyBianco" filename="meteo/wi-day-sunny_bianco.png" dithering="none" />
+    <bitmap id="wiDaySunnyCiano" filename="meteo/wi-day-sunny_blue.png" dithering="none" />
+    <bitmap id="wiDaySunnyOvercastGiallo" filename="meteo/wi-day-sunny-overcast_giallo.png" dithering="none" />
+    <bitmap id="wiDaySunnyOvercastLime" filename="meteo/wi-day-sunny-overcast_lime.png" dithering="none" />
+    <bitmap id="wiDaySunnyOvercastRosa" filename="meteo/wi-day-sunny-overcast_rosa.png" dithering="none" />
+    <bitmap id="wiDaySunnyOvercastBianco" filename="meteo/wi-day-sunny-overcast_bianco.png" dithering="none" />
+    <bitmap id="wiDaySunnyOvercastCiano" filename="meteo/wi-day-sunny-overcast_blue.png" dithering="none" />
+    <bitmap id="wiRainMixGiallo" filename="meteo/wi-rain-mix_giallo.png" dithering="none" />
+    <bitmap id="wiRainMixLime" filename="meteo/wi-rain-mix_lime.png" dithering="none" />
+    <bitmap id="wiRainMixRosa" filename="meteo/wi-rain-mix_rosa.png" dithering="none" />
+    <bitmap id="wiRainMixBianco" filename="meteo/wi-rain-mix_bianco.png" dithering="none" />
+    <bitmap id="wiRainMixCiano" filename="meteo/wi-rain-mix_blue.png" dithering="none" />
+    <bitmap id="wiRainWindGiallo" filename="meteo/wi-rain-wind_giallo.png" dithering="none" />
+    <bitmap id="wiRainWindLime" filename="meteo/wi-rain-wind_lime.png" dithering="none" />
+    <bitmap id="wiRainWindRosa" filename="meteo/wi-rain-wind_rosa.png" dithering="none" />
+    <bitmap id="wiRainWindBianco" filename="meteo/wi-rain-wind_bianco.png" dithering="none" />
+    <bitmap id="wiRainWindCiano" filename="meteo/wi-rain-wind_blue.png" dithering="none" />
+    <bitmap id="wiShowersGiallo" filename="meteo/wi-showers_giallo.png" dithering="none" />
+    <bitmap id="wiShowersLime" filename="meteo/wi-showers_lime.png" dithering="none" />
+    <bitmap id="wiShowersRosa" filename="meteo/wi-showers_rosa.png" dithering="none" />
+    <bitmap id="wiShowersBianco" filename="meteo/wi-showers_bianco.png" dithering="none" />
+    <bitmap id="wiShowersCiano" filename="meteo/wi-showers_blue.png" dithering="none" />
+    <bitmap id="wiSnowGiallo" filename="meteo/wi-snow_giallo.png" dithering="none" />
+    <bitmap id="wiSnowLime" filename="meteo/wi-snow_lime.png" dithering="none" />
+    <bitmap id="wiSnowRosa" filename="meteo/wi-snow_rosa.png" dithering="none" />
+    <bitmap id="wiSnowBianco" filename="meteo/wi-snow_bianco.png" dithering="none" />
+    <bitmap id="wiSnowCiano" filename="meteo/wi-snow_blue.png" dithering="none" />
+    <bitmap id="wiSnowWindGiallo" filename="meteo/wi-snow-wind_giallo.png" dithering="none" />
+    <bitmap id="wiSnowWindLime" filename="meteo/wi-snow-wind_lime.png" dithering="none" />
+    <bitmap id="wiSnowWindRosa" filename="meteo/wi-snow-wind_rosa.png" dithering="none" />
+    <bitmap id="wiSnowWindBianco" filename="meteo/wi-snow-wind_bianco.png" dithering="none" />
+    <bitmap id="wiSnowWindCiano" filename="meteo/wi-snow-wind_blue.png" dithering="none" />
+    <bitmap id="wiSprinkleGiallo" filename="meteo/wi-sprinkle_giallo.png" dithering="none" />
+    <bitmap id="wiSprinkleLime" filename="meteo/wi-sprinkle_lime.png" dithering="none" />
+    <bitmap id="wiSprinkleRosa" filename="meteo/wi-sprinkle_rosa.png" dithering="none" />
+    <bitmap id="wiSprinkleBianco" filename="meteo/wi-sprinkle_bianco.png" dithering="none" />
+    <bitmap id="wiSprinkleCiano" filename="meteo/wi-sprinkle_blue.png" dithering="none" />
+    <bitmap id="wiStormShowersGiallo" filename="meteo/wi-storm-showers_giallo.png" dithering="none" />
+    <bitmap id="wiStormShowersLime" filename="meteo/wi-storm-showers_lime.png" dithering="none" />
+    <bitmap id="wiStormShowersRosa" filename="meteo/wi-storm-showers_rosa.png" dithering="none" />
+    <bitmap id="wiStormShowersBianco" filename="meteo/wi-storm-showers_bianco.png" dithering="none" />
+    <bitmap id="wiStormShowersCiano" filename="meteo/wi-storm-showers_blue.png" dithering="none" />
+    <bitmap id="wiThunderstormGiallo" filename="meteo/wi-thunderstorm_giallo.png" dithering="none" />
+    <bitmap id="wiThunderstormLime" filename="meteo/wi-thunderstorm_lime.png" dithering="none" />
+    <bitmap id="wiThunderstormRosa" filename="meteo/wi-thunderstorm_rosa.png" dithering="none" />
+    <bitmap id="wiThunderstormBianco" filename="meteo/wi-thunderstorm_bianco.png" dithering="none" />
+    <bitmap id="wiThunderstormCiano" filename="meteo/wi-thunderstorm_blue.png" dithering="none" />
+    <bitmap id="wiDayFogGiallo" filename="meteo/wi-day-fog_giallo.png" dithering="none" />
+    <bitmap id="wiDayFogLime" filename="meteo/wi-day-fog_lime.png" dithering="none" />
+    <bitmap id="wiDayFogRosa" filename="meteo/wi-day-fog_rosa.png" dithering="none" />
+    <bitmap id="wiDayFogBianco" filename="meteo/wi-day-fog_bianco.png" dithering="none" />
+    <bitmap id="wiDayFogCiano" filename="meteo/wi-day-fog_blue.png" dithering="none" />
+    <bitmap id="wiDayHazeGiallo" filename="meteo/wi-day-haze_giallo.png" dithering="none" />
+    <bitmap id="wiDayHazeLime" filename="meteo/wi-day-haze_lime.png" dithering="none" />
+    <bitmap id="wiDayHazeRosa" filename="meteo/wi-day-haze_rosa.png" dithering="none" />
+    <bitmap id="wiDayHazeBianco" filename="meteo/wi-day-haze_bianco.png" dithering="none" />
+    <bitmap id="wiDayHazeCiano" filename="meteo/wi-day-haze_blue.png" dithering="none" />
 
-    
-    
-  <!--STATICHE-->  
-    <bitmap id="Alba"           filename="meteo/statiche/sunrise-up-svgrepo-com_blue.png"           dithering="none" />
-    <bitmap id="Tramonto"          filename="meteo/statiche/sunset-down-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="Vento"          filename="meteo/statiche/wind-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="CoperturaCielo"          filename="meteo/statiche/cloudy-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="Umidita"          filename="meteo/statiche/rain-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="PercPioggia"          filename="meteo/statiche/umbrella-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="UvIndex"          filename="meteo/statiche/uv-index_blue.png"          dithering="none" />
-    <bitmap id="Pioggia"          filename="meteo/statiche/livello_pioggia_blue.png"          dithering="none" />
+    <!--STATICHE-->
+    <bitmap id="AlbaGiallo" filename="meteo/statiche/sunrise-up-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="AlbaLime" filename="meteo/statiche/sunrise-up-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="AlbaRosa" filename="meteo/statiche/sunrise-up-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="AlbaBianco" filename="meteo/statiche/sunrise-up-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="AlbaCiano" filename="meteo/statiche/sunrise-up-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="TramontoGiallo" filename="meteo/statiche/sunset-down-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="TramontoLime" filename="meteo/statiche/sunset-down-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="TramontoRosa" filename="meteo/statiche/sunset-down-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="TramontoBianco" filename="meteo/statiche/sunset-down-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="TramontoCiano" filename="meteo/statiche/sunset-down-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="VentoGiallo" filename="meteo/statiche/wind-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="VentoLime" filename="meteo/statiche/wind-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="VentoRosa" filename="meteo/statiche/wind-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="VentoBianco" filename="meteo/statiche/wind-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="VentoCiano" filename="meteo/statiche/wind-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="CoperturaCieloGiallo" filename="meteo/statiche/cloudy-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="CoperturaCieloLime" filename="meteo/statiche/cloudy-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="CoperturaCieloRosa" filename="meteo/statiche/cloudy-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="CoperturaCieloBianco" filename="meteo/statiche/cloudy-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="CoperturaCieloCiano" filename="meteo/statiche/cloudy-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="UmiditaGiallo" filename="meteo/statiche/rain-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="UmiditaLime" filename="meteo/statiche/rain-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="UmiditaRosa" filename="meteo/statiche/rain-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="UmiditaBianco" filename="meteo/statiche/rain-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="UmiditaCiano" filename="meteo/statiche/rain-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="PercPioggiaGiallo" filename="meteo/statiche/umbrella-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="PercPioggiaLime" filename="meteo/statiche/umbrella-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="PercPioggiaRosa" filename="meteo/statiche/umbrella-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="PercPioggiaBianco" filename="meteo/statiche/umbrella-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="PercPioggiaCiano" filename="meteo/statiche/umbrella-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="UvIndexGiallo" filename="meteo/statiche/uv-index_giallo.png" dithering="none" />
+    <bitmap id="UvIndexLime" filename="meteo/statiche/uv-index_lime.png" dithering="none" />
+    <bitmap id="UvIndexRosa" filename="meteo/statiche/uv-index_rosa.png" dithering="none" />
+    <bitmap id="UvIndexBianco" filename="meteo/statiche/uv-index_bianco.png" dithering="none" />
+    <bitmap id="UvIndexCiano" filename="meteo/statiche/uv-index_blue.png" dithering="none" />
+    <bitmap id="PioggiaGiallo" filename="meteo/statiche/livello_pioggia_giallo.png" dithering="none" />
+    <bitmap id="PioggiaLime" filename="meteo/statiche/livello_pioggia_lime.png" dithering="none" />
+    <bitmap id="PioggiaRosa" filename="meteo/statiche/livello_pioggia_rosa.png" dithering="none" />
+    <bitmap id="PioggiaBianco" filename="meteo/statiche/livello_pioggia_bianco.png" dithering="none" />
+    <bitmap id="PioggiaCiano" filename="meteo/statiche/livello_pioggia_blue.png" dithering="none" />
 
-
-
-
-  <!--SISTEMA-->
-    <bitmap id="blueOn"          filename="sistema/bluetooth_on.png"          dithering="none" />
-    <bitmap id="blueOff"          filename="sistema/bluetooth_off.png"          dithering="none" />
-
-
-
-      <!--UTENTE-->
-    <bitmap id="Gradini"          filename="stairs-svgrepo-com_blue.png"          dithering="none" />
-    <bitmap id="Foot"          filename="footprint_blue.png"          dithering="none" />
-    <bitmap id="Calorie"          filename="calorie_blue.png"          dithering="none" />
-    <bitmap id="BodyBattery"          filename="body_battery_blue.png"          dithering="none" />
-    <bitmap id="MinAttivita"          filename="min_attivita_blue.png"          dithering="none" />
+    <!--UTENTE-->
+    <bitmap id="GradiniGiallo" filename="stairs-svgrepo-com_giallo.png" dithering="none" />
+    <bitmap id="GradiniLime" filename="stairs-svgrepo-com_lime.png" dithering="none" />
+    <bitmap id="GradiniRosa" filename="stairs-svgrepo-com_rosa.png" dithering="none" />
+    <bitmap id="GradiniBianco" filename="stairs-svgrepo-com_bianco.png" dithering="none" />
+    <bitmap id="GradiniCiano" filename="stairs-svgrepo-com_blue.png" dithering="none" />
+    <bitmap id="FootGiallo" filename="footprint_giallo.png" dithering="none" />
+    <bitmap id="FootLime" filename="footprint_lime.png" dithering="none" />
+    <bitmap id="FootRosa" filename="footprint_rosa.png" dithering="none" />
+    <bitmap id="FootBianco" filename="footprint_bianco.png" dithering="none" />
+    <bitmap id="FootCiano" filename="footprint_blue.png" dithering="none" />
+    <bitmap id="CalorieGiallo" filename="calorie_giallo.png" dithering="none" />
+    <bitmap id="CalorieLime" filename="calorie_lime.png" dithering="none" />
+    <bitmap id="CalorieRosa" filename="calorie_rosa.png" dithering="none" />
+    <bitmap id="CalorieBianco" filename="calorie_bianco.png" dithering="none" />
+    <bitmap id="CalorieCiano" filename="calorie_blue.png" dithering="none" />
+    <bitmap id="BodyBatteryGiallo" filename="body_battery_giallo.png" dithering="none" />
+    <bitmap id="BodyBatteryLime" filename="body_battery_lime.png" dithering="none" />
+    <bitmap id="BodyBatteryRosa" filename="body_battery_rosa.png" dithering="none" />
+    <bitmap id="BodyBatteryBianco" filename="body_battery_bianco.png" dithering="none" />
+    <bitmap id="BodyBatteryCiano" filename="body_battery_blue.png" dithering="none" />
+    <bitmap id="MinAttivitaGiallo" filename="min_attivita_giallo.png" dithering="none" />
+    <bitmap id="MinAttivitaLime" filename="min_attivita_lime.png" dithering="none" />
+    <bitmap id="MinAttivitaRosa" filename="min_attivita_rosa.png" dithering="none" />
+    <bitmap id="MinAttivitaBianco" filename="min_attivita_bianco.png" dithering="none" />
+    <bitmap id="MinAttivitaCiano" filename="min_attivita_blue.png" dithering="none" />
 
     <!--LOGO-->
-     <bitmap id="Pep"          filename="PeP.png"          dithering="none" />
-    
+    <bitmap id="Pep"     filename="PeP.png"                  dithering="none" />
+
+    <!--SISTEMA-->
+    <bitmap id="blueOn"  filename="sistema/bluetooth_on.png"  dithering="none" />
+    <bitmap id="blueOff" filename="sistema/bluetooth_off.png" dithering="none" />
+
 </drawables>

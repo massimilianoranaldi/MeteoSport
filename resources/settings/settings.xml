@@ -9,75 +9,301 @@
         </settingConfig>
     </setting>
 
-
-
     <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
         <settingConfig type="boolean" />
     </setting>
 
-
     <!-- METEO SINISTRA -->
-    <setting propertyKey="@Properties.SinistraRiga2" title="@Strings.SinistraRiga2Title">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
-            <listEntry value="1">@Strings.SlotPioggia</listEntry>
-            <listEntry value="2">@Strings.SlotUmidita</listEntry>
-            <listEntry value="3">@Strings.SlotVento</listEntry>
-            <listEntry value="4">@Strings.SlotCopertura</listEntry>
-            <listEntry value="5">@Strings.SlotUV</listEntry>
-        </settingConfig>
-    </setting>
+    <group id="gruppoMeteo" title="@Strings.sepSlot1Title">
 
-    <setting propertyKey="@Properties.SinistraRiga3" title="@Strings.SinistraRiga3Title">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
-            <listEntry value="1">@Strings.SlotPioggia</listEntry>
-            <listEntry value="2">@Strings.SlotUmidita</listEntry>
-            <listEntry value="3">@Strings.SlotVento</listEntry>
-            <listEntry value="4">@Strings.SlotCopertura</listEntry>
-            <listEntry value="5">@Strings.SlotUV</listEntry>
-        </settingConfig>
-    </setting>
+        <setting propertyKey="@Properties.SinistraRiga2" title="@Strings.SinistraRiga2Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
+                <listEntry value="1">@Strings.SlotPioggia</listEntry>
+                <listEntry value="2">@Strings.SlotUmidita</listEntry>
+                <listEntry value="3">@Strings.SlotVento</listEntry>
+                <listEntry value="4">@Strings.SlotCopertura</listEntry>
+                <listEntry value="5">@Strings.SlotUV</listEntry>
+            </settingConfig>
+        </setting>
 
+        <setting propertyKey="@Properties.SinistraRiga3" title="@Strings.SinistraRiga3Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.SlotProbPioggia</listEntry>
+                <listEntry value="1">@Strings.SlotPioggia</listEntry>
+                <listEntry value="2">@Strings.SlotUmidita</listEntry>
+                <listEntry value="3">@Strings.SlotVento</listEntry>
+                <listEntry value="4">@Strings.SlotCopertura</listEntry>
+                <listEntry value="5">@Strings.SlotUV</listEntry>
+            </settingConfig>
+        </setting>
 
+    </group>
 
     <!-- INFO UTENTE DESTRA -->
-    <setting propertyKey="@Properties.DestraRiga1" title="@Strings.DestraRiga1Title">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.SlotCalorie</listEntry>
-            <listEntry value="1">@Strings.SlotPassi</listEntry>
-            <listEntry value="2">@Strings.SlotGradini</listEntry>
-            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
-        </settingConfig>
-    </setting>
+    <group id="gruppoStatistice" title="@Strings.sepSlot2Title">
 
-    <setting propertyKey="@Properties.DestraRiga2" title="@Strings.DestraRiga2Title">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.SlotCalorie</listEntry>
-            <listEntry value="1">@Strings.SlotPassi</listEntry>
-            <listEntry value="2">@Strings.SlotGradini</listEntry>
-            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
-        </settingConfig>
-    </setting>
+        <setting propertyKey="@Properties.DestraRiga1" title="@Strings.DestraRiga1Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.SlotCalorie</listEntry>
+                <listEntry value="1">@Strings.SlotPassi</listEntry>
+                <listEntry value="2">@Strings.SlotGradini</listEntry>
+                <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
+            </settingConfig>
+        </setting>
 
-    <setting propertyKey="@Properties.DestraRiga3" title="@Strings.DestraRiga3Title">
-        <settingConfig type="list">
-            <listEntry value="0">@Strings.SlotCalorie</listEntry>
-            <listEntry value="1">@Strings.SlotPassi</listEntry>
-            <listEntry value="2">@Strings.SlotGradini</listEntry>
-            <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
-        </settingConfig>
-    </setting>
+        <setting propertyKey="@Properties.DestraRiga2" title="@Strings.DestraRiga2Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.SlotCalorie</listEntry>
+                <listEntry value="1">@Strings.SlotPassi</listEntry>
+                <listEntry value="2">@Strings.SlotGradini</listEntry>
+                <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
+            </settingConfig>
+        </setting>
 
-<setting propertyKey="@Properties.GoalPassi" title="@Strings.GoalPassiTitle">
-    <settingConfig type="numeric" min="0" max="20000" />
+        <setting propertyKey="@Properties.DestraRiga3" title="@Strings.DestraRiga3Title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.SlotCalorie</listEntry>
+                <listEntry value="1">@Strings.SlotPassi</listEntry>
+                <listEntry value="2">@Strings.SlotGradini</listEntry>
+                <listEntry value="3">@Strings.SlotBodyBattery</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.GoalPassi" title="@Strings.GoalPassiTitle">
+            <settingConfig type="numeric" min="0" max="20000" />
+        </setting>
+
+        <setting propertyKey="@Properties.GoalCalorie" title="@Strings.GoalCalorieTitle">
+            <settingConfig type="numeric" min="0" max="3000" />
+        </setting>
+
+        <setting propertyKey="@Properties.GoalGradini" title="@Strings.GoalGradiniTitle">
+            <settingConfig type="numeric" min="0" max="100" />
+        </setting>
+
+    </group>
+
+    <!-- COLORI TEMA -->
+    <group id="gruppoColori" title="@Strings.sepSlot3Title">
+
+        <setting propertyKey="@Properties.coloreOre" title="@Strings.coloreOreTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreMinuti" title="@Strings.coloreMinutiTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreRettangolo" title="@Strings.coloreRettangoloTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreSfondoBarreArchi" title="@Strings.coloreSfondoBarreArchiTitle">
+            <settingConfig type="list">
+                <listEntry value="0xAAAAAA">Grigio chiaro</listEntry>
+                <listEntry value="0x555555">Grigio scuro</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillBarra1" title="@Strings.coloreFillBarra1Title">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillBarra2" title="@Strings.coloreFillBarra2Title">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillBarra3" title="@Strings.coloreFillBarra3Title">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillAlbaArcoSx" title="@Strings.coloreFillAlbaArcoSxTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillTramontoArcoSx" title="@Strings.coloreFillTramontoArcoSxTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFillArcoDx" title="@Strings.coloreFillArcoDxTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+            </settingConfig>
+        </setting>
+
+    </group>
+
+    <!-- COLORI FONT -->
+    <group id="gruppoColoriFont" title="@Strings.sepSlot4Title">
+
+        <setting propertyKey="@Properties.coloreFontParametri" title="@Strings.coloreFontParametriTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+                <listEntry value="0x000000">Nero</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFontOraMeteo" title="@Strings.coloreFontOraMeteoTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+                <listEntry value="0x000000">Nero</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFontCitta" title="@Strings.coloreFontCittaTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+                <listEntry value="0x000000">Nero</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFontGiorno" title="@Strings.coloreFontGiornoTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+                <listEntry value="0x000000">Nero</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.coloreFontCalendario" title="@Strings.coloreFontCalendarioTitle">
+            <settingConfig type="list">
+                <listEntry value="0xFFFF00">Giallo</listEntry>
+                <listEntry value="0x00AAFF">Ciano</listEntry>
+                <listEntry value="0x55FF00">Lime</listEntry>
+                <listEntry value="0xFF5500">Arancione</listEntry>
+                <listEntry value="0xFF0000">Rosso</listEntry>
+                <listEntry value="0x00AA00">Verde</listEntry>
+                <listEntry value="0xFFFFFF">Bianco</listEntry>
+                <listEntry value="0xFF55AA">Rosa</listEntry>
+                <listEntry value="0x000000">Nero</listEntry>
+            </settingConfig>
+        </setting>
+
+    </group>
+
+
+<setting propertyKey="@Properties.temaIcone" title="@Strings.temaIconeTitle">
+    <settingConfig type="list">
+        <listEntry value="0">Default</listEntry> 
+        <listEntry value="1">Summer</listEntry>
+        <listEntry value="2">Marine</listEntry>
+        <listEntry value="3">Pink</listEntry>
+        <listEntry value="4">Forest</listEntry>
+    </settingConfig>
 </setting>
-<setting propertyKey="@Properties.GoalCalorie" title="@Strings.GoalCalorieTitle">
-    <settingConfig type="numeric" min="0" max="3000" />
-</setting>
 
-<setting propertyKey="@Properties.GoalGradini" title="@Strings.GoalGradiniTitle">
-    <settingConfig type="numeric" min="0" max="100" />
+<setting propertyKey="@Properties.tipoIconaMeteo" title="@Strings.tipoIconaMeteoTitle">
+    <settingConfig type="list">
+        <listEntry value="1">Colorata (default)</listEntry>
+        <listEntry value="0">Monocromatica</listEntry>
+    </settingConfig>
 </setting>
-
 </settings>
